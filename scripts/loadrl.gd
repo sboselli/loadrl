@@ -21,7 +21,7 @@ const COLOR_RED = Color(1, 0, 0, 1)
 const DB_FILE = "res://db.json"
 var db_local = {}
 
-const DB_URL = "https://gist.github.com/sboselli/68b9aba55232c9aabc2982013dc99019/raw/0b0f670972ce2351318539f565dfd9ca91177b5d/loadrl-db-191229.json"
+const DB_URL = "https://github.com/sboselli/loadrl/raw/master/db.json"
 var db_online = {}
 
 var db = {}
