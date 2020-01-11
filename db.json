@@ -362,6 +362,32 @@
       }
     }
   },
+  "cogmind7d": {
+    "name": "Cogmind (7DRL)",
+    "dev": "Kyzrati @ Grid Sage Games",
+    "desc": "IMPORTANT: This prototype is years old now and corresponds to the original 7DRL version. A much, much, much improved commercial version is currently in development by Grid Sage Games. (NOTE from loadRL: trust this, go buy it now! link in details).\n\nYou are a prototype for a form of highly intelligent artificial life capable of quickly interfacing with and learning from the surrounding environment to evolve over time. You are the Cogmind. Build and rebuild yourself as you destroy or evade the Overmind's thralls to escape the subterranean robot city in this sci-fi dungeon romp (2012 7DRL).",
+    "tags": ["scifi", "7drl"],
+    "links": {
+      "home": "https://www.gridsagegames.com/cogmind/",
+      "steam": "https://store.steampowered.com/app/722730/Cogmind/",
+      "steam_community": "https://steamcommunity.com/app/722730/",
+      "reddit": "https://www.reddit.com/r/Cogmind/",
+      "old_home": "http://cogmindrl.blogspot.com/p/files.html",
+      "manual": "http://cogmindrl.blogspot.com/p/manual.html"
+    },
+    "versions": {
+      "2012_final": {
+        "url": "http://www.gridsagegames.com/blogs/fileDownload.php?fileName=Cogmind7DRL2012_final.rar",
+        "path": "COGMIND",
+        "exec": "COGMIND"
+      },
+      "2012": {
+        "url": "http://www.gridsagegames.com/blogs/fileDownload.php?fileName=Cogmind7DRL2012.rar",
+        "path": "COGMIND",
+        "exec": "COGMIND"
+      }
+    }
+  },
   "collateral": {
     "name": "Collateral Souls",
     "dev": "Procrastination Softworks",
