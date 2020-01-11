@@ -1,0 +1,68 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/dialog_manual_install.gd" type="Script" id=1]
+
+
+[node name="dialog" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_vertical_guides_": [ 480.0, 640.0, 320.0 ]
+}
+
+[node name="box" type="Panel" parent="."]
+margin_right = 960.0
+margin_bottom = 210.0
+
+[node name="msg" type="RichTextLabel" parent="box"]
+margin_left = 130.0
+margin_top = 30.0
+margin_right = 590.0
+margin_bottom = 180.0
+text = "Dailog message
+Can be multine and also quite long horizontally."
+
+[node name="bttn1" type="Button" parent="box"]
+margin_left = 640.0
+margin_top = 30.0
+margin_right = 890.0
+margin_bottom = 90.0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+enabled_focus_mode = 0
+flat = true
+align = 0
+
+[node name="label" type="RichTextLabel" parent="box/bttn1"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 1
+text = "Button 1"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="bttn2" type="Button" parent="box"]
+margin_left = 640.0
+margin_top = 120.0
+margin_right = 890.0
+margin_bottom = 180.0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+enabled_focus_mode = 0
+flat = true
+align = 0
+
+[node name="label" type="RichTextLabel" parent="box/bttn2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 1
+text = "Button 2"
+__meta__ = {
+"_edit_lock_": true
+}
+[connection signal="mouse_entered" from="box/bttn1" to="." method="_on_bttn1_mouse_entered"]
+[connection signal="mouse_exited" from="box/bttn1" to="." method="_on_bttn1_mouse_exited"]
+[connection signal="pressed" from="box/bttn1" to="." method="_on_bttn1_pressed"]
+[connection signal="mouse_entered" from="box/bttn2" to="." method="_on_bttn2_mouse_entered"]
+[connection signal="mouse_exited" from="box/bttn2" to="." method="_on_bttn2_mouse_exited"]
+[connection signal="pressed" from="box/bttn2" to="." method="_on_bttn2_pressed"]

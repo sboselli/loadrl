@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/dialog.gd" type="Script" id=1]
+
+[node name="dialog" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_vertical_guides_": [ 480.0 ]
+}
+
+[node name="Panel" type="Panel" parent="."]
+margin_right = 960.0
+margin_bottom = 150.0
+
+[node name="label" type="Label" parent="Panel"]
+margin_left = 360.0
+margin_top = 70.0
+margin_right = 592.0
+margin_bottom = 84.0
+text = "Wait message"
+valign = 2

@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/container_header.gd" type="Script" id=1]
+
+[node name="container_header" type="Control"]
+margin_left = 10.0
+margin_right = 950.0
+margin_bottom = 30.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="btn_loadrl" type="ToolButton" parent="."]
+margin_left = -10.0
+margin_top = 3.0
+margin_right = 130.0
+margin_bottom = 30.0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+enabled_focus_mode = 0
+text = " > loadRL @ v.0.1"
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="btn_exit" type="ToolButton" parent="."]
+margin_left = 894.0
+margin_top = 3.0
+margin_right = 946.0
+margin_bottom = 30.0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+enabled_focus_mode = 0
+text = "[ x ]"
+__meta__ = {
+"_edit_lock_": true
+}
+[connection signal="pressed" from="btn_loadrl" to="." method="_on_btn_loadrl_pressed"]
+[connection signal="pressed" from="btn_exit" to="." method="_on_btn_exit_pressed"]

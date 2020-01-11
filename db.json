@@ -1,0 +1,1692 @@
+{
+  "3059": {
+    "name": "3059",
+    "dev": "Phr00t",
+    "desc": "3059 is a free, fully featured roguelike RPG game.\n\nThe year is 3059.\n\nEarth has been overpopulated for ages. For the past 200 years, humankind has been seeking out new planets to colonize. Before humans are placed on a new planet, it is prepared with a basic set of roads, satellite networks, and buildings constructed by autonomous robots. You've just been placed on planet Esperenza, the planet of hope, with groups of other settlers. There is no organized authority in effect, and large cities and vehicles have yet to arrive; aliens still live freely in uncivilized areas. You have every chance to be anything you want to be.",
+    "tags": [],
+    "links": {
+      "home": "https://sites.google.com/site/free3069/3059----the-beginning"
+    },
+    "versions": {
+      "3.6": {
+        "url": "https://drive.google.com/uc?authuser=0&id=0Bza9ecEdICHGUGVlZHVVaTNPV2s&export=download",
+        "flags": ["manual_install", "disabled"],
+        "path": "",
+        "exec": "3059v36"
+      }
+    },
+    "disabled": true
+  },
+	"adom-ascii": {
+		"name": "ADOM Classic (ascii)",
+    "dev": "Thomas Biskup",
+    "desc": "Ancient Domains Of Mystery (ADOM) is an epic roguelike & RPG game, customizable to a wide variety of playing styles. Dive into mysteries created in more than a quarter century of development, explore a huge world and become a champion of order or chaos. Save the world of Ancardia or rule it with an iron fist... or chaos tentacle!",
+    "links": {
+		  "home": "http://adom.de/",
+      "steam": "https://store.steampowered.com/app/333300",
+      "gog": "https://www.gog.com/game/adom",
+      "changelog": "https://www.adom.de/home/changelog.html",
+      "forums": "https://www.adom.de/forums",
+      "steam_community_hub": "https://steamcommunity.com/app/333300",
+      "rogueleague": "http://rogueleague.org/",
+      "wiki": "http://ancardia.wikia.com/",
+      "discord": "https://discordapp.com/channels/205277826788622337/205296206446854145",
+      "fb": "https://www.facebook.com/groups/115262377960/",
+      "twitter": "https://www.twitter.com/adom_dev",
+      "old_releases": "https://www.adom.de/home/download/old"
+    },
+    "versions": {
+		  "3.3.3": {
+		    "url": "https://www.adom.de/home/download/current/adom_windows_3.3.3.zip",
+        "flags": [],
+		    "path": "adom",
+		    "exec": "adom"
+      }
+    }
+	},
+	"adom-tiles": {
+		"name": "ADOM Classic (tiles)",
+    "dev": "Thomas Biskup",
+    "desc": "Ancient Domains Of Mystery (ADOM) is an epic roguelike & RPG game, customizable to a wide variety of playing styles. Dive into mysteries created in more than a quarter century of development, explore a huge world and become a champion of order or chaos. Save the world of Ancardia or rule it with an iron fist... or chaos tentacle!",
+    "links": {
+		  "home": "http://adom.de/",
+      "steam": "https://store.steampowered.com/app/333300",
+      "gog": "https://www.gog.com/game/adom",
+      "changelog": "https://www.adom.de/home/changelog.html",
+      "forums": "https://www.adom.de/forums",
+      "steam_community_hub": "https://steamcommunity.com/app/333300",
+      "rogueleague": "http://rogueleague.org/",
+      "wiki": "http://ancardia.wikia.com/",
+      "discord": "https://discordapp.com/channels/205277826788622337/205296206446854145",
+      "fb": "https://www.facebook.com/groups/115262377960/",
+      "twitter": "https://www.twitter.com/adom_dev",
+      "old_releases": "https://www.adom.de/home/download/old"
+    },
+    "versions": {
+		  "3.3.3": {
+		    "url": "https://www.indiedb.com/downloads/mirror/173925/115/4637a350a56bba3e4da447224d822674/?referer=https%3A%2F%2Fwww.adom.de%2Fhome%2Fdownloads.html",
+		    "path": "adom",
+		    "exec": "adom"
+      }
+    }
+	},
+  "alienhack": {
+    "name": "Alienhack",
+    "dev": "SockPuppet",
+    "desc": "Alienhack is a tactical coffee-break roguelike loosely based on AliensRL by Kornel Kisielewicz (which in turn is loosely based on the 90s Alien Breed computer games).\n\nAlienhack has an unusual feature for a roguelike: a limited-angle FOV. This is central to the gameplay mechanic, as you will need to work hard to prevent foes from creeping up behind you.\n\nAlienhack is open source and public domain.",
+    "tags": ["coffee"],
+    "links": {
+      "home": "https://github.com/SockPuppet8/Alienhack",
+      "releases": "https://github.com/SockPuppet8/Alienhack/releases"
+    },
+    "versions": {
+      "0.9.1": {
+        "url": "https://github.com/SockPuppet8/Alienhack/releases/download/v0.9.1/Alienhack.0.9.1.beta.zip",
+        "path": "Alienhack 0.9.1 beta",
+        "exec": "Alienhack"
+      }
+    }
+  },
+  "aliensrl": {
+    "name": "AliensRL",
+    "dev": "Kornel Kisielewicz (ChaosForge)",
+    "desc": "AliensRL is a tactical roguelike game, created in 7 days by DRL dev Kornel Kisielewicz, inspired by the 'Aliens' movie and the 'Alien Breed: Tower Assault' computer game.",
+    "links": {
+		  "home": "http://alien.chaosforge.org/",
+      "forum": "https://forum.chaosforge.org/",
+      "wiki": "https://alien.chaosforge.org/wiki",
+      "fb": "http://www.facebook.com/ChaosForge",
+      "twitter": "http://twitter.com/chaosforge_org",
+      "twitter": "http://twitter.com/epyoncf",
+      "releases": "https://alien.chaosforge.org/category/releases/",
+      "dontations": "https://forum.chaosforge.org/index.php?action=treasury"
+    },
+    "versions": {
+		  "082": {
+        "url": "https://alien.chaosforge.org/file_download/9/aliensrl-win-082.zip",
+		    "path": "aliensrl-win-082",
+        "exec": "abrl"
+      }
+    }
+  },
+  "alphaman": {
+    "name": "Alphaman",
+    "dev": "Jeffrey R. Olson",
+    "desc": "Alphaman is a classic post-apocalyptic roguelike.\n\nThe player takes on the role of a genetically impure human undertaking a very important mission. Further information is to be found on a tape recording. This recording will self-destruct after transmitting the message. Each time a game is started two mutations are randomly selected and assigned to the player character. One physical mutation and one mental mutation, both chosen from a quite large set.\n\nPhysical mutations are typically combat oriented. Tentacles, quills, poison claws and tough exoskeleton all are available. Most mutations are limited by a cooldown system. After activating an effect you need to wait a bit until you can use it again. Mental changes include cryogenics, military genius, scientific genius, and hypnosis. Using different combinations of mutations each playthrough adds a unique element of enjoyment and enhances the game's replayability.\n\nThere are a lot of humorous elements in the game. For example toilet paper is very effective against dung beetles.\n\nAlphaman feature wide array of cool technological devices, usually unidentified when found. Unlike most roguelikes identification is not accomplished by use or through a 'foo of identify'. The player has to use a 'f'igure out command which results in the character trying to reveal possible ways to use it. However, if you happen to fail badly the item will break! The machines range from tiny pencil sharpeners to large, heavy and cumbersome dialysis machines.\n\nBerries take the place of potions in the world of Alphaman. Each berry subspecimen has a random name. The potency of a berry is measured by its ripeness which in turn is determined by its color. Riper berries have stronger effects while less ripe ones almost no effect. It is important to discover bad berries by eating them when unripe but use beneficial ones when they are ripest. This leads to many identification strategies.\n\nAlphaman's overworld is randomly generated anew for each game. The overworld is free to roam and explore, although the locations of castles (places where quests crucial to game victory can be completed) are known. Randomly placed ruined buildings can also be found while traveling. They are often worth exploring for the many useful treasures which may be hidden within.\n\nIn Alphaman the player needs to eat and sleep. The use of caffeine may delay the sleep timer somewhat.\n\nThe total time to complete the game is limited just like in Larn and Fallout 1. If you fail to achieve victory before the archenemy manages to accomplish his plan it is the same as if you had died. There are three difficulty levels available if winning seems too difficult. These modes are available at the start of the game.\n\nAlphaman also features the ability to save the game and continuing to play.",
+    "tags": ["post-apocalyptic", "scifi", "open world"],
+    "links": {
+      "roguebasin": "http://www.roguebasin.com/index.php?title=Alphaman",
+      "wiki": "https://alphaman.fandom.com/wiki/Alphaman_Wiki"
+    },
+    "versions": {
+      "1.1": {
+        "url": "http://tripalot.com/roguelike/files/alphaman-11.zip",
+        "flags": ["dos"],
+        "path": "",
+        "exec": "ALPHAMAN"
+      }
+    }
+  },
+	"angband": {
+		"name": "@ngband",
+    "dev": "Community mantained",
+    "desc": "Angband is a free, single-player dungeon exploration game.\n\nYou play an adventurer seeking riches, fighting monsters, and preparing for a final battle with Morgoth, the Lord of Darkness.",
+		"links": {
+      "home": "http://rephial.org/",
+      "docs": "https://angband.readthedocs.io/",
+      "game_help": "http://rephial.org/help/",
+      "ladder": "http://angband.oook.cz/ladder.php",
+      "changelog": "http://rephial.org/release/",
+      "forum": "http://angband.oook.cz/forum/",
+      "github": "http://github.com/angband/angband",
+      "issue_tracker": "http://trac.rephial.org/",
+      "variants": "http://angband.oook.cz/variants.php?ordrd=1",
+      "old_releases": "http://rephial.org/release/"
+    },
+    "versions": {
+      "4.2.0": {
+		    "url": "http://rephial.org/downloads/4.2/angband-4.2.0-win.zip",
+		    "path": "angband-4.2.0",
+		    "exec": "angband"
+      }
+    }
+	},
+  "armcom1": {
+    "name": "Armoured Commander",
+    "dev": "Gregory Adam Scott",
+    "desc": "The WWII Tank Commander Roguelike\n\nArmoured Commander, the original WWII tank commander roguelike, first released on February 2, 2015 and last updated on March 16, 2017. It is no longer in active development, but the original source code and Windows binaries are still available for download.\n\nIn Armoured Commander (ArmCom) your goal is to survive the campaign, which runs from 1944 to 1945, and accumulate as many Victory Points as you can during that time. Each day you may be called up for combat, and during ca combat day you choose how to proceed across a procedurally-generated terrain map, leading your battlegroup into combat. Battle encounters take place on a hex map, where you must order your crew to deal with enemy forces ranging from infantry squads to Tiger tanks. As you progress and gain Victory Points, your crew gains experience, levels, and skill points, which can be used to purpose skills and improve their effectiveness.\n\nThe M4 Sherman tank was outgunned and outnumbered by enemy forces upon arrival in Normandy, and in ArmCom the situation is the same. You cannot roll forward, guns blazing, and expect to survive even a single day of combat. Instead you must learn to use the same tactics as historical tank crews: using cover, smoke, and mobility to survive and help destroy enemy forces that you encounter.\n\nTwo campaigns are available: 'Patton's Best' where you fight as part of the American 4th Armoured Division, and 'Canada's Best', where you command a tank in the Canadian 4th Armoured Division.",
+    "links": {
+      "home": "https://www.armouredcommander.com/blog/armoured-commander-i/",
+      "manual": "https://www.armouredcommander.com/blog/online-manual/",
+      "github": "https://github.com/sudasana/armcom",
+      "twitter": "https://twitter.com/armouredcmdr"
+    },
+    "versions": {
+      "1.04": {
+        "url": "http://www.armouredcommander.com/download/armcom_1_04.zip",
+        "path": "",
+        "exec": "armcom"
+      }
+    }
+  },
+  "armcom2": {
+    "name": "Armoured Commander 2 (alpha)",
+    "dev": "Gregory Adam Scott",
+    "desc": "Armoured Commander II is an in-development tank commander roguelike game set in the Second World War, and sequel to Armoured Commander, by the same dev.",
+    "links": {
+      "home": "https://www.armouredcommander.com/",
+      "devlog": "https://www.armouredcommander.com/blog/",
+      "github": "https://github.com/sudasana/armcom2",
+      "playthrough": "https://youtu.be/p-W6jghsBvo",
+      "twitter": "https://twitter.com/armouredcmdr"
+    },
+    "versions": {
+      "alpha10.2": {
+        "url": "http://www.armouredcommander.com/download/armcom2_alpha_10.zip",
+        "path": "",
+        "exec": "armcom2"
+      },
+      "alpha9.2": {
+        "url": "http://www.armouredcommander.com/download/armcom2_alpha_9.zip",
+        "path": "",
+        "exec": "armcom2"
+      },
+      "alpha8": {
+        "url": "http://www.armouredcommander.com/download/armcom2_alpha_8.zip",
+        "path": "",
+        "exec": "armcom2"
+      }
+    }
+  },
+  "asciisec": {
+    "name": "Ascii Sector",
+    "dev": "Laserbrain Studios",
+    "desc": "Ascii Sector is a free space combat/exploration/trading game for Windows, Mac OS X and Linux. You start with a simple spaceship and can then accept missions or trade goods to earn enough money to upgrade your ship or buy a new one.\n\nYou can engage in deadly fights both in space, on the ground and on board spaceships, and using the Ascii Sector scripting language, you can create your own quests for the game or have fun with other players' quests.",
+    "tags": ["space", "rpg"],
+    "links": {
+      "home": "http://www.asciisector.net/",
+      "wiki": "http://asciisector.wikia.com/",
+      "forum": "http://www.asciisector.net/forum/",
+      "quadrant_map": "http://www.asciisector.net/extra/crimmap.gif",
+      "donations": "http://www.asciisector.net/"
+    },
+    "versions": {
+      "0.7.2": {
+        "url": "https://s3.amazonaws.com/asciisector/asciisec0.7.2-win.zip",
+        "path": "asciisec",
+        "exec": "asciisec"
+      }
+    }
+  },
+  "boohu": {
+    "name": "Break Out Of Hareka's Underground (Boohu)",
+    "dev": "anaseto",
+    "desc": "Break Out Of Hareka's Underground (Boohu) is a turn-based coffee-break roguelike game with a heavy focus on tactical positioning mechanisms. This focus strongly influenced its weapon attack patterns, consumables and terrain features. Aiming for a replayable streamlined experience, the game avoids manual inventory management and complex character building, relying on items and player adaptability for character progression.\n\nEvery year, the elders send someone to collect medicinal simella plants in the Underground. This year, the honor fell upon you, and so here you are. According to the elders, deep in the Underground, magical stairs will lead you back to your village. Along the way, you will collect simellas, as well as various items that will help you deal with monsters, which you may fight or flee...",
+    "tags": ["coffee"],
+    "links": {
+      "home": "https://download.tuxfamily.org/boohu/index.html",
+      "git": "https://git.tuxfamily.org/boohu/boohu.git/",
+      "changelog": "https://git.tuxfamily.org/boohu/boohu.git/tree/Changes"
+    },
+    "versions": {
+      "0.13.0": {
+        "url": "https://download.tuxfamily.org/boohu/downloads/boohu-0.13.0-windows_amd64.zip",
+        "path": "",
+        "exec": "boohu"
+      }
+    }
+  },
+	"brogue": {
+		"name": "Brogue",
+    "dev": "Brian Walker",
+    "desc": "Brogue is a direct descendant of Rogue, unlike other popular modern roguelikes, and it favors simplicity over complexity, while trying to ensure that the interactions between components will be interesting and varied.",
+  	"links": {
+      "home": "http://sites.google.com/site/broguegame/",
+      "forum": "https://www.reddit.com/r/brogueforum/",
+      "wiki": "http://brogue.wikia.com/wiki/Brogue_Wiki",
+      "irc": "http://webchat.quakenet.org/?channels=brogue",
+      "changelog": "https://sites.google.com/site/broguegame/"
+    },
+    "versions": {
+		  "1.7.5": {
+		    "url": "https://sites.google.com/site/broguegame/Brogue-windows-v1.7.5.zip",
+		    "path": "Brogue-windows-v1.7.5",
+		    "exec": "brogue"
+      }
+    }
+	},
+	"cdda-ascii": {
+		"name": "Cataclysm: Dark Days Ahead (ascii)",
+    "dev": "Kevin Granade and community",
+    "desc": "Cataclysm: Dark Days Ahead is a turn-based survival game set in a post-apocalyptic world. Struggle to survive in a harsh, persistent, procedurally generated world. Scavenge the remnants of a dead civilization for food, equipment, or, if you are lucky, a vehicle with a full tank of gas to get you the hell out of Dodge. Fight to defeat or escape from a wide variety of powerful monstrosities, from zombies to giant insects to killer robots and things far stranger and deadlier, and against the others like yourself, that want what you have…",
+    "links": {
+      "home": "https://cataclysmdda.org/",
+      "forums": "https://discourse.cataclysmdda.org/",
+      "reddit_unofficial": "https://www.reddit.com/r/cataclysmdda/",
+      "discord": "https://discord.gg/jFEc7Yp",
+      "wiki": "http://cddawiki.chezzo.com/cdda_wiki/index.php",
+      "changelog": "https://cataclysmdda.org/releases/",
+      "github": "https://github.com/CleverRaven/Cataclysm-DDA",
+      "item_browser": "http://cdda-trunk.chezzo.com/",
+      "game_launcher": "https://discourse.cataclysmdda.org/t/cdda-game-launcher-automatic-updates-and-more",
+      "old_releases": "https://cataclysmdda.org/releases/",
+      "donations": "https://cataclysmdda.org/donations/",
+      "bug_bounty": "https://www.bountysource.com/teams/cataclysm-dda"
+    },
+    "versions": {
+		  "0.D-8574": {
+		    "url": "https://github.com/CleverRaven/Cataclysm-DDA/releases/download/0.D/cataclysmdda-0.D-8574-Win-Curses.zip",
+		    "path": "",
+		    "exec": "cataclysm"
+      }
+    }
+	},
+	"cdda-tiles": {
+		"name": "Cataclysm: Dark Days Ahead (tiles)",
+    "dev": "Kevin Granade and community",
+    "desc": "Cataclysm: Dark Days Ahead is a turn-based survival game set in a post-apocalyptic world. Struggle to survive in a harsh, persistent, procedurally generated world. Scavenge the remnants of a dead civilization for food, equipment, or, if you are lucky, a vehicle with a full tank of gas to get you the hell out of Dodge. Fight to defeat or escape from a wide variety of powerful monstrosities, from zombies to giant insects to killer robots and things far stranger and deadlier, and against the others like yourself, that want what you have…",
+    "links": {
+      "home": "https://cataclysmdda.org/",
+      "forums": "https://discourse.cataclysmdda.org/",
+      "reddit_unofficial": "https://www.reddit.com/r/cataclysmdda/",
+      "discord": "https://discord.gg/jFEc7Yp",
+      "wiki": "http://cddawiki.chezzo.com/cdda_wiki/index.php",
+      "changelog": "https://cataclysmdda.org/releases/",
+      "github": "https://github.com/CleverRaven/Cataclysm-DDA",
+      "item_browser": "http://cdda-trunk.chezzo.com/",
+      "game_launcher": "https://discourse.cataclysmdda.org/t/cdda-game-launcher-automatic-updates-and-more",
+      "old_releases": "https://cataclysmdda.org/releases/",
+      "donations": "https://cataclysmdda.org/donations/",
+      "bug_bounty": "https://www.bountysource.com/teams/cataclysm-dda"
+    },
+    "versions": {
+		  "0.D-8574": {
+		    "url": "https://github.com/CleverRaven/Cataclysm-DDA/releases/download/0.D/cataclysmdda-0.D-8574-Win-Tiles.zip",
+		    "path": "",
+		    "exec": "cataclysm-tiles"
+      }
+    }
+	},
+  "xaskazien": {
+    "name": "Caverns of Xaskazien",
+    "dev": "Jeff Sinasac",
+    "desc": "Caverns of Xaskazien may have been more popular, had its name been easier to remember/spell!\nIt's a turn-based Roguelike game with randomized dungeons where the goal is to defeat the evil Xaskazien. Although it shares many traits with other Roguelikes, it also has its own unique feel, in part due to its visual look, and in part due to gameplay mechanics. Only the tiles immediately around your player get revealed as you walk around, making playing the game a nerve-wracking experience as you never know what's coming up around the corner. It's also pretty unforgiving as it's quite easy to die.",
+    "tags": ["dos", "old"],
+    "links": {
+      "home": "https://codedread.com/games.php#COX",
+      "wikipedia": "https://en.wikipedia.org/wiki/Caverns_of_Xaskazien",
+      "dosgames": "https://www.dosgames.com/game/caverns-of-xaskazien/"
+    },
+    "versions": {
+      "5.00": {
+        "url": "https://www.dosgames.com/files/cox-dos.zip",
+        "flags": ["dos"],
+        "path": "",
+        "exec": "cox"
+      }
+    }
+  },
+  "cotc": {
+    "name": "City of the Condemned",
+    "dev": "Tapio",
+    "desc": "City of the Condemned (CotC) is a 7DRL 'winner' made for the 2010 challenge (this is an updated version). The game depicts a battle between angels and demons in a randomly generated city. The goal is (depending on the side) to either protect or destroy the humans. Victory can also be achieved by vanquishing the opposing force or ascending beyond archdemon / archangel status.",
+    "tags": ["7drl", "coffee"],
+    "links": {
+      "home": "https://tapiov.net/cotc/",
+      "github": "http://github.com/tapio/cotc",
+      "roguebasin": "http://www.roguebasin.com/index.php?title=City_of_the_Condemned"
+    },
+    "versions": {
+      "e9a8989": {
+        "url": "http://github.com/tapio/cotc/zipball/master",
+        "path": "tapio-cotc-e9a8989",
+        "exec": "bin\\CotC-1.0"
+      }
+    }
+  },
+  "cotd": {
+    "name": "City of the Damned",
+    "dev": "gwathlobal",
+    "desc": "City of the Damned is a simple fast-paced coffee-break roguelike inspired by a 7DRL entry 'City of the Condemned' by Tapio. It is written in Common Lisp using SDL.",
+    "tags": ["7drl", "coffee"],
+    "links": {
+      "home": "https://github.com/gwathlobal/CotD",
+      "changelog": "https://github.com/gwathlobal/CotD/blob/master/CHANGELOG.txt",
+      "releases": "https://github.com/gwathlobal/CotD/releases"
+    },
+    "versions": {
+      "1.3.4": {
+        "url": "https://github.com/gwathlobal/CotD/releases/download/v1.3.4/cotd_win_x64_v1.3.4.zip",
+        "path": "CotD",
+        "exec": "cotd"
+      }
+    }
+  },
+  "collateral": {
+    "name": "Collateral Souls",
+    "dev": "Procrastination Softworks",
+    "desc": "Collateral Souls is a roguelike game meant to be quick to play and easy to pick up. Battle your way through an unexpected afterlife – hunted by angels and demons alike. Modern weapons like rifles and shotguns add a unique ranged combat system not seen by many games of the genre. Ascend mortal ability and use divine weaponry  for your own survival. Die again. Repeat. Who said the afterlife didn’t have an afterlife?\n\n'The darkness mechanic … is probably a bigger enemy than the actual enemies of the game'\n\n'The darkness is intense in this game, it does not screw around'",
+    "tags": ["coffee"],
+    "links": {
+      "home": "http://procrastinationsoftworks.com/wordpress/?page_id=253"
+    },
+    "versions": {
+      "0.25": {
+        "url": "http://procrastinationsoftworks.com/Files/Collateral_Souls_0.25.zip",
+        "path": "",
+        "exec": "Collateral_Souls"
+      }
+    }
+  },
+  "cthang": {
+    "name": "Cthangband",
+    "dev": "Gurbintroll Games",
+    "desc": "NOTE: This game requires manual steps to install!\n\nCthangband is an Angband variant, based on the Cthulu universe.\n\nFrom the dev:\nI wrote the first version of Cthangband back in 1998, although that version was barely different from the Zangband variant of Angband. Over the last twenty years, subsequent releases of Angband and Cthangband have grown further apart, and by now they are no longer even written in the same programming language.",
+    "tags": ["variant", "variant-angband"],
+    "links": {
+      "home": "https://gurbintrollgames.wordpress.com/cthangband/"
+    },
+    "versions": {
+      "6.1": {
+        "url": "https://www.dropbox.com/s/swsugjfg91imprx/cthangband.6.2.install.exe?dl=0",
+        "flags": ["manual_install", "disabled"],
+        "path": "",
+        "exec": ""
+      }
+    },
+    "disabled": true
+  },
+  "dataqueen": {
+    "name": "DataQueen",
+    "dev": "Darren Grey",
+    "desc": "Last week I completed DataQueen, my 4th successful 7DRL. It’s a hex-based roguelike with a number of unique mechanics that makes it very tight and tactical without ever feeling too overwhelming.\n\nThe big concept I wanted to try in the game was from the board game Hive, where you only die if you get surrounded. This seemed like a cool idea to port to roguelikes! So enemies can’t attack you directly, and movement is very important.\n\nAt the same time you have a wheel of special abilities called the 'hex wheel'. For each hex direction you move in you have a special attack that hits in that direction. You can gain new hexes and place them on the wheel as the game progresses. This gives a range of tactical options all tied to just the movement keys. Every turn the wheel spins, meaning you have to plan moves and positioning if you want to chain attacks together. The abilities have all been designed to combine in interesting ways, encouraging the player to make multi-turn attacks.\n\nMovement itself is made more interesting by giving you free movement on green grids. This lets you reposition yourself for different attack directions very easily. Moving onto blue grids converts them to to green, but enemies will do the opposite, quickly eating up your useful tactical space. This cuts across all the mechanics in the game and adds a lot of tactical depth. To progress you need to connect pink grids up with green grids, so the war with enemies is mostly one of terrain (and not dying).\n\nThe base enemies all have unique abilities which can challenge the player. Most enemies die in one hit, but they can be a huge problem in mass numbers. Each level there is a boss, and each of these requires special tactics to overcome. It makes for a challenging game that hopefully never feels unfair.",
+    "tags": ["7drl", "coffee"],
+    "links": {
+      "home": "http://www.gamesofgrey.com/blog/?p=461",
+      "donations": "http://www.gamesofgrey.com/blog/?p=461"
+    },
+    "versions": {
+      "01": {
+        "url": "http://gamesofgrey.com/games/dataqueen/dataqueen-win.zip",
+        "path": "DataQueen",
+        "exec": "DataQueen"
+      }
+    }
+  },
+  "ddrogue": {
+    "name": "DDRogue",
+    "dev": "flend",
+    "desc": "DDRogue is a 60-minute dungeon crawl with a twist - special attacks triggered by movement patterns. Now you can circle round an opponent for an advantage, or leap off a wall over them and stab them in the back! DDRogue also has a (semi-optional) plot and character advancement through item collection.",
+    "tags": ["7drl"],
+    "links": {
+      "home": "http://flend.net/ddrogue/index.html",
+      "github": "http://github.com/flend/roguelike",
+      "devlog": "http://ddrogue.livejournal.com/",
+      "wiki": "http://ddrogue.wikidot.com/"
+    },
+    "versions": {
+      "1.01": {
+        "url": "http://flend.net/files/ddrogue.zip",
+        "path": "ddrogue",
+        "exec": "RogueBasin"
+      }
+    }
+  },
+  "decker": {
+    "name": "Decker",
+    "dev": "Shawn Overcash",
+    "desc": "Decker is the name of the ones who break into corporate mainframes to perform missions from rival companies. In this tile-based cyberpunk RL, you are one of the deckers, running in cyberspace to earn skill and money to upgrade your equipment.\n\nThe player takes on the role of a hacker who wants to earn reputation and money. To achieve this, a decker signs contracts and enters computers systems to fulfill the current mission. Objectives include disabling security devices, crashing systems, retrieval and/or deletion of data, creation of backdoors and many more. For completing a contract, the player is awarded with reputation and money. Any valuable files downloaded while in cyberspace are sold and also added to credits. On the other hand, reputation may suffer if many missions are failed. In cyberspace, the player may hack into databases, fight various ICE (Intrusion Countermeasure programs), collect information, and several more activities. Sometimes source code is found and upon downloading can prove to be a valuable tool for the hacker to use. Gained money may be used to upgrade hardware, pay for treatment, new software and rental payment.\n\nThe game is divided into two contexts: inside the Matrix, when the player is invading systems, jacked to his cyberdeck; and in the real world, where you manage the character's life: from choosing jobs (or waiting for new ones) to developing new software, hardware, resting, shopping and paying the rent.",
+    "tags": ["scifi"],
+    "links": {
+      "home": "https://web.archive.org/web/20110926115405/http://www10.caro.net/dsi/decker/",
+      "guide": "https://drfrog.wordpress.com/2009/08/04/a-brief-introduction-to-decker-part-1-a-cyberpunk-hacking-roguelike/",
+      "sourceforge": "https://sourceforge.net/projects/decker/",
+      "roguebasin": "http://www.roguebasin.com/index.php?title=Decker"
+    },
+    "versions": {
+      "1.12": {
+        "url": "https://sourceforge.net/projects/decker/files/latest/download",
+        "flags": ["copy_files"],
+        "path": "bin",
+        "exec": "Decker",
+        "copy_files": ["DefaultGraphics", "bin\\DefaultGraphics"]
+      }
+    }
+  },
+  "demon": {
+    "name": "Demon",
+    "dev": "Herbie Piland (FerretDev)",
+    "desc": "A Monster Collection Roguelike\n\nIn Demon, you play as a Summoner who has donned a relic in hopes of acquiring great power, only to find that the relic has compelled you to enter a mysterious tower from which no Summoners seem to return. Starting with only a few meager powers and a weak demon ally that the relic provided when you donned it, you must climb the tower, recruiting more and stronger demons and through your battles alongside them acquire stronger powers for your own use as well.\n\nThough the relics are powerful, they have limits: They do not allow direct control of demons, and the powers they grant are only enough to make the Summoner as strong as... not stronger than... the demons within the tower. Without powerful, well-chosen allies and clever use of the abilities learned from them, there will be no chance of survival.",
+    "tags": [],
+    "links": {
+      "home": "http://demon.ferretdev.org/",
+      "devlog": "http://demon.ferretdev.org/devblog/",
+      "forum": "http://forum.ferretdev.org/"
+    },
+    "versions": {
+      "10_27_2019": {
+        "url": "https://drive.google.com/uc?authuser=0&id=1db_ng1XVZu4kVgRBd7YKIw7GrSOCxbw2&export=download",
+        "path": "Demon_10_27_2019_PC_Build",
+        "exec": "Demon"
+      }
+    }
+  },
+	"diablorl": {
+		"name": "DiabloRL",
+    "dev": "Kornel Kisielewicz, Chris Johnson and Mel'nikova Anastasia",
+    "desc": "This game was created in 7 days by the author of DRL and Jupiter Hell",
+    "tags": ["7drl"],
+    "links": {
+		  "home": "http://diablo.chaosforge.org/",
+      "forum": "https://forum.chaosforge.org/",
+      "fb": "http://www.facebook.com/ChaosForge",
+      "twitter": "http://twitter.com/epyoncf",
+      "twitter": "http://twitter.com/chaosforge_org",
+      "releases": "https://dablo.chaosforge.org/category/releases/",
+      "dontations": "https://forum.chaosforge.org/index.php?action=treasury"
+    },
+    "versions": {
+      "050": {
+        "url": "https://diablo.chaosforge.org/file_download/11/diablorl-win-050.zip",
+        "path": "diablorl-win-050",
+        "exec": "rl"
+      }
+    }
+  },
+	"drl": {
+		"name": "DRL",
+    "dev": "Kornel Kisielewicz and Derek Yu (ChaosForge)",
+    "desc": "DRL (D**m, the Roguelike) is a fast and furious coffee-break Roguelike game, that is heavily inspired by the popular FPS game Doom by ID Software.",
+    "links": {
+		  "home": "http://drl.chaosforge.org/",
+      "forum": "https://forum.chaosforge.org/",
+      "wiki": "https://drl.chaosforge.org/wiki",
+      "github": "https://github.com/ChaosForge/doomrl",
+      "fb": "http://www.facebook.com/ChaosForge",
+      "twitter": "http://twitter.com/chaosforge_org",
+      "twitter": "http://twitter.com/epyoncf",
+      "youtube_tuts": "https://www.youtube.com/user/TheUberHunter",
+      "releases": "https://drl.chaosforge.org/category/releases/",
+      "dontations": "https://forum.chaosforge.org/index.php?action=treasury"
+    },
+    "versions": {
+      "0997": {
+        "url": "https://drl.chaosforge.org/file_download/35/doomrl-win-0997.zip",
+        "path": "doomrl-win-0997",
+        "exec": "doomrl"
+      }
+    }
+	},
+  "dcrawl": {
+    "name": "Dungeon Crawl: Linley's original (DOS)",
+    "dev": "Linley Henzell",
+    "desc": "Dungeon Crawl (aka Linley's Dungeon Crawl, after its author) is one of the early Roguelikes game in the spirit of Rogueand Nethack.\n\nThis is an older DOS version game, as written by the author, before it became adopted and mantained by the community and later become Dungeon Crawl Stone Soup",
+    "tags": ["dos"],
+    "links": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Dungeon_Crawl_Stone_Soup#Linley's_Dungeon_Crawl"
+    },
+    "versions": {
+      "4.0.0beta26": {
+        "url": "https://www.dosgames.com/files/DOSBOX_CRAWL.ZIP",
+        "flags": ["dos"],
+        "path": "",
+        "exec": "crawl"
+      }
+    }
+  },
+	"dcss-ascii": {
+		"name": "Dungeon Crawl: Stone Soup (ascii)",
+    "dev": "Community",
+    "desc": "A roguelike adventure through dungeons filled with dangerous monsters in a quest to find the mystifyingly fabulous Orb of Zot.\n\nDungeon Crawl Stone Soup is a free and open source roguelike computer game, which is the actively community-developed successor of the 1997 roguelike game Linley's Dungeon Crawl, originally programmed by Linley Henzell.",
+    "links": {
+		  "home": "http://crawl.develz.org/",
+      "wiki": "http://crawl.chaosforge.org/Crawl_Wiki",
+      "forum": "https://crawl.develz.org/tavern/",
+      "monster_lookup": "https://crawl.develz.org/info/",
+      "irc": "http://webchat.freenode.net/?channels=%23%23crawl",
+      "reddit": "https://www.reddit.com/r/dcss/",
+      "releases": "https://crawl.develz.org/release/?C=N;O=D",
+      "github": "https://github.com/crawl/crawl",
+      "bug_reports": "https://crawl.develz.org/mantis/"
+    },
+    "versions": {
+      "0.24.0": {
+        "url": "http://crawl.develz.org/release/0.24/stone_soup-0.24.0-console-win32.zip",
+        "path": "stone_soup-0.24",
+        "exec": "crawl"
+      }
+    }
+	},
+	"dcss-tiles": {
+		"name": "Dungeon Crawl: Stone Soup (tiles)",
+    "dev": "Community",
+    "desc": "A roguelike adventure through dungeons filled with dangerous monsters in a quest to find the mystifyingly fabulous Orb of Zot.\n\nDungeon Crawl Stone Soup is a free and open source roguelike computer game, which is the actively community-developed successor of the 1997 roguelike game Linley's Dungeon Crawl, originally programmed by Linley Henzell.",
+    "links": {
+		  "home": "http://crawl.develz.org/",
+      "wiki": "http://crawl.chaosforge.org/Crawl_Wiki",
+      "forum": "https://crawl.develz.org/tavern/",
+      "monster_lookup": "https://crawl.develz.org/info/",
+      "irc": "http://webchat.freenode.net/?channels=%23%23crawl",
+      "reddit": "https://www.reddit.com/r/dcss/",
+      "releases": "https://crawl.develz.org/release/?C=N;O=D",
+      "github": "https://github.com/crawl/crawl",
+      "bug_reports": "https://crawl.develz.org/mantis/"
+    },
+    "versions": {
+      "0.24.0": {
+        "url": "http://crawl.develz.org/release/0.24/stone_soup-0.24.0-tiles-win32.zip",
+        "path": "stone_soup-tiles-0.24",
+        "exec": "crawl"
+      }
+    }
+	},
+  "dmerc": {
+    "name": "Dungeon Mercenary",
+    "dev": "hgames",
+    "desc": "Dungeon Mercenary is designed to be easily understandable but hard to master, as you'll need to die a few times before being able to reach the dungeon's middle depths. To beat the dungeon, you'll need to learn when it is wise to dash to flee, when you should try a special attack to try slithing a monster's throat in one turn, how to lure monsters into traps, etc. Then, only the bravest mercenaries will succeed in winning the game… Good luck!\n\nDungeon Mercenary is a dungeon crawler game where levels (and items, and monsters, etc.) are randomly generated. This means that you never get to play the same game twice! Famous roguelikes include Blizzard's Diablo sequel, Torchlight, etc. Dungeon Mercenary is a much more humble game than those super productions. Like classic roguelikes, it is in ASCII art. This means there are no graphics: a wall is displayed '#', the player is displayed '@', a goblin is displayed 'g', etc. Don't run away! ASCII-roguelikes make your imagination do the job. Once you're accustomed (and believe me, it's quick!), you'll enjoy it as much as a graphical game; because hey we did not stop reading books when movies were invented!",
+    "tags": ["coffee"],
+    "links": {
+      "home": "http://www.schplaf.org/hgames/dm.html",
+      "itch": "https://hgames.itch.io/dungeon-mercenary",
+      "gamejolt": "http://gamejolt.com/games/dungeon-mercenary/151692",
+      "kongregate": "http://www.kongregate.com/games/hgames/dungeon-mercenary",
+      "changelog": "http://www.schplaf.org/hgames/changelog.html",
+      "twitter": "https://twitter.com/hgamesdev",
+      "donations": "http://www.schplaf.org/hgames/dm.html"
+    },
+    "versions": {
+      "180430": {
+        "url": "http://www.schplaf.org/hgames/releases/dm/dm-18-04-30-windows64.zip",
+        "path": "dm-18-04-30-windows64",
+        "exec": "DungeonMercenary"
+      }
+    }
+  },
+  "dminder": {
+    "name": "DungeonMinder",
+    "dev": "???",
+    "desc": "The game about being a small invisible fairy tasked with keeping an adventurer alive. Accompany the heroic '@' as he explores the dungeon! Watch as he stupidly picks fights with monsters far stronger than him! Subtly influence the resulting brawl to keep him alive long enough to reach the stairs! Don't ever expect to be thanked for your good plans and hard work.\n\nDungeonMinder was originally a 7DRL that was successfully completed in the 7DRL challenge 2009. Now that the challenge is over, development on DungeonMinder continues in the form of three major updates, each expanding and refining the game in key areas. The original 7DRL version can still be found on the Downloads page.",
+    "tags": ["coffee"],
+    "links": {
+      "home": "https://code.google.com/archive/p/dungeonminder/"
+    },
+    "versions": {
+      "0.8": {
+        "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dungeonminder/DungeonMinder%20v0.8%20-%20Windows.zip",
+        "path": "",
+        "exec": "DungeonMinder"
+      }
+    }
+  },
+  "elona": {
+    "name": "Elona",
+    "dev": "Noa",
+    "desc": "Elona is a Japanese graphical roguelike (no longer under active development). It has a main storyline and randomly generated side-quests. The developer has stated that his goal is to make a less serious roguelike, focusing on making the game fun and humorous instead of implementing realistic mechanics.\n\nThe gameplay is more forgiving than in traditional roguelikes. The main character never completely dies, death only reduces your abilities and resources. Most of the areas are pre-generated but some of the dungeons are randomly generated each time the player enters them. Item names and abilities are randomized, sometimes resulting in unusual and sometimes hilarious combinations. Most of the graphics and sounds are borrowed from external sources under a free license.",
+    "tags": [],
+    "links": {
+      "home": "http://ylvania.org/en/elona",
+      "manga_blog": "http://illara.blog17.fc2.com/",
+      "forum": "https://forum-elona.rhcloud.com/forum/"
+    },
+    "versions": {
+      "116fix2b": {
+        "url": "http://ylvania.style.coocan.jp/file/elona116rfix2b.zip",
+        "path": "elona",
+        "exec": "elona"
+      }
+    }
+  },
+  "flatline": {
+    "name": "FlatlineRL",
+    "dev": "flend",
+    "desc": "FlatlineRL was my entry in the 2013 7DRL competition. It sees you commanding a remote drone tasked with penetrating a space hulk and fighting, or sneaking, past its automated, patrolling defenses.",
+    "tags": ["7drl", "coffee", "stealth", "scifi"],
+    "links": {
+      "home": "http://flend.net/flatlinerl/index.html",
+      "github": "http://github.com/flend/roguelike",
+      "devlog": "http://ddrogue.livejournal.com/"
+    },
+    "versions": {
+      "1.1": {
+        "url": "http://flend.net/files/flatlinerl-v11.zip",
+        "path": "",
+        "exec": "FlatlineRL"
+      }
+    }
+  },
+  "frogcompos": {
+    "name": "FrogComposband",
+    "dev": "sulkasormi",
+    "desc": "A variant of PosChengband and Composband with more stuff, more humor and fewer bugs.",
+    "tags": ["variant", "variant-angband"],
+    "links": {
+      "home": "https://github.com/sulkasormi/frogcomposband",
+      "roguetemple": "https://forums.roguetemple.com/index.php?topic=5544.0",
+      "angband_forum": "http://angband.oook.cz/forum/showthread.php?t=8850"
+    },
+    "versions": {
+      "7.1.chocolate": {
+        "url": "https://github.com/sulkasormi/frogcomposband/releases/download/v7.1.chocolate/frogcomposband-7.1.chocolate-win.zip",
+        "path": "",
+        "exec": "frogcomposband"
+      }
+    }
+  },
+  "gcamp": {
+    "name": "Goblin Camp",
+    "dev": "???",
+    "desc": "Goblin Camp is a roguelike citybuilder, inspired by Anno 1404, Dwarf Fortress and Dungeon Keeper.\n\nAs of 2012 the project is dead so don't expect any updates.",
+    "tags": ["4x"],
+    "links": {
+      "home": "http://www.goblincamp.com/",
+      "ref_guide": "http://goblincamp.com/releases/gcguide015.pdf",
+      "bitbucket": "https://bitbucket.org/genericcontainer/goblin-camp"
+    },
+    "versions": {
+      "0.21": {
+        "url": "http://goblincamp.com/releases/GoblinCamp021.zip",
+        "path": "",
+        "exec": "goblin-camp"
+      }
+    }
+  },
+  "ghack": {
+    "name": "Goblin Hack",
+    "dev": "???",
+    "desc": "NOTE: This game requires manual steps to install!\n\nGoblin Hack is a real-time roguelike game with flashily colored ASCII art.\n\nGoblin Hack is an ASCII, SDL + opengl based game. It opts for terrible graphics and no sound to give a nice simple game that should appeal to kids and adults alike.\n\nThink NetHack, but faster and with fewer keys; and worse graphics ;)\n\nThis game is no longer maintained - anyone interested in taking it over?",
+    "tags": [],
+    "links": {
+      "home": "https://github.com/goblinhack/goblinhack",
+      "github": "https://github.com/goblinhack/goblinhack",
+      "sourceforge": "https://sourceforge.net/projects/goblinhack/",
+      "releases": "https://sourceforge.net/projects/goblinhack/files/goblinhack/"
+    },
+    "versions": {
+      "1.18": {
+        "url": "https://ufpr.dl.sourceforge.net/project/goblinhack/goblinhack/1.18/goblinhack-1.18-windows-installer.exe",
+        "flags": ["manual_install", "disabled"],
+        "path": "",
+        "exec": ""
+      }
+    },
+    "disabled": true
+  },
+  "gruesome": {
+    "name": "Gruesome",
+    "dev": "Darren Grey",
+    "desc": "Gruesome is a short and difficult coffeebreak roguelike where the player takes control of a Zork-inspired grue. Under this reverse role scenario the player is represented by a black square and the enemies, adventurers, are represented by '@' symbols. Light emitted from adventurers instantly kills the grue, whilst getting adventurers to walk into the grue instantly kills them. The light emitted by adventurers can also be disabled using a shadow spell, allowing the grue to attack and eat them directly. The player starts on the bottom of a cavern system 20 levels deep, and the game is completed by reaching the surface.\n\nThe game is intended to provide simple, fast gameplay with frequent deaths to make it addictive and fun. Unlike many others roguelikes there are no hit points and few stats - light will instantly kill the grue, and the grue can instantly kill adventurers in the right circumstances. There are technically no impossible scenarios, but as the game progresses the caverns become tighter and the enemies more frequent, leading to extremely difficult and tense situations. Levels are non-permanent and can be regenerated to make the game easier. Upon winning the game the player is presented with a number of achievements representing their gameplay habits.",
+    "tags": ["7drl"],
+    "links": {
+      "home": "https://untrustedlife.com/project-random-world-development/",
+      "itch": "https://untrustedlife.itch.io/roguelegends-dark-realms-0182",
+      "patreon": "https://www.patreon.com/Untrustedlife"
+    },
+    "versions": {
+      "0.0.3": {
+        "url": "http://www.gamesofgrey.com/games/gruesome/gruesome0.0.3.zip",
+        "path": "gruesome",
+        "exec": "\"gruesome(zeno mod)\""
+      }
+    }
+  },
+  "harmonist": {
+    "name": "Harmonist: Dayoriahh Clan Infiltration",
+    "dev": "anaseto",
+    "desc": "Harmonist is a stealth coffee-break roguelike game. The game has a heavy focus on tactical positioning, light and noise mechanisms, making use of various terrain types and cones of view for monsters. Aiming for a replayable streamlined experience, the game avoids complex inventory management and character building, relying on items and player adaptability for character progression.\n\n-----\n\nYour friend Shaedra got captured by nasty people from the Dayoriah Clan while she was trying to retrieve a powerful magara artifact that was stolen from the great magara-specialist Marevor Helith.\n\nAs a gawalt monkey, you don't understand much why people complicate so much their lives caring about artifacts and the like, but one thing is clear: you have to rescue your friend, somewhere to be found in this Underground area controlled by the Dayoriah Clan. If what you heard the guards say is true, Shaedra's imprisoned on the eighth floor.\n\nYou are small and have good night vision, so you hope the infiltration will go smoothly...",
+    "tags": ["coffee", "stealth"],
+    "links": {
+      "home": "https://harmonist.tuxfamily.org/index.html",
+      "git": "https://git.tuxfamily.org/harmonist/harmonist.git/",
+      "changelog": "https://git.tuxfamily.org/harmonist/harmonist.git/tree/Changes"
+    },
+    "versions": {
+      "0.2": {
+        "url": "https://download.tuxfamily.org/harmonist/releases/harmonist-0.2-windows_amd64.zip",
+        "path": "",
+        "exec": "harmonist"
+      }
+    }
+  },
+  "hengband": {
+    "name": "Hengband",
+    "dev": "Mr.Hoge, Habu, Henkma, iks, Kuwa, Mogami and nsk",
+    "desc": "Hengband is mainly based on ZAngband 2.2.8 Japanese version. ZAngband 2.2.8 Japanese version was developed by Mitsuhiro Itakura, based on both ZAngband 2.2.8 and Angband 2.8.3 Japanese version, and has some original features, for example, Auto-picker, in addition to simple translation.\n\nHengband also includes codes from many other variants including ToME, OAngband, etc...  Mr.Hoge wrote the first original part of Hengband.  And currently, it is maintained by Hengband Development Team including Mr.Hoge, Habu, Henkma, iks, Kuwa, Mogami and nsk.",
+    "tags": ["variant", "variant-angband"],
+    "links": {
+      "home": "http://hengband.sourceforge.jp/en/"
+    },
+    "versions": {
+      "2.2.1r": {
+        "url": "https://osdn.net/frs/redir.php?m=pumath&f=hengband%2F69565%2Fhengband-2.2.1r-win.zip",
+        "path": "hengband-2.2.1r",
+        "exec": "Hengband"
+      }
+    }
+  },
+	"hydraslayer": {
+		"name": "Hydra Slayer",
+    "dev": "Zeno Rogue Games",
+    "desc": "You are facing a nine-headed hydra. Your flaming longsword cuts five heads in each swipe (no more, no less), which will kill a five-headed hydra, but a larger hydra will regrow two heads after each swipe. Your storm scythe cuts exactly seven heads, but it makes ten heads grow back if the hydra is not dead. Is it possible to kill the hydra? What if you also had a silver dagger, which cuts just one head, but makes five heads grow back?\n\nHydra Slayer is a Roguelike game focused on one thing: slaying Hydras. It is inspired by Greek mythology, Dungeon Crawl, MathRL seven day roguelike, and some mathematical puzzles about brave heroes slaying many headed beasts.",
+    "links": {
+  		"home": "http://www.roguetemple.com/z/hydra/",
+      "steam": "http://store.steampowered.com/app/432380",
+      "itch": "http://zenorogue.itch.io/hydra-slayer",
+      "releases": "https://www.roguetemple.com/z/hydra/history.php",
+      "discord": "https://discord.gg/8G44XkR",
+      "twitter": "http://twitter.com/ZenoRogue",
+      "donations": "https://www.roguetemple.com/z/donate.php?id=everything"
+    },
+    "versions": {
+      "18.0": {
+        "url": "https://www.roguetemple.com/z/noteye/noteye-84.zip",
+        "path": "noteye",
+        "exec": "hydra"
+      }
+    }
+	},
+	"hyperrogue": {
+		"name": "HyperRogue",
+    "dev": "Zeno Rogue Games",
+    "desc": "You are a lone adventurer in a strange world, where geometry does not work in the expected way. Gather as much treasure as you can before the nasty monsters get you. Explore about 50 different worlds, each with its own unique treasures, enemies, and terrain obstacles. Your quest is to find the legendary treasure, the Orbs of Yendor. Collect one of them to win! Or just ignore your quest and collect smaller treasures.\n\nThe twist is the unique, unusual geometry of the world: it is one of just few games which takes place on the hyperbolic plane. Witness a grid composed of hexagons and heptagons, straight lines which seem to be parallel, but then they diverge and never cross, triangles whose angles add up to less than 180 degrees, how extremely unlikely is it to reach the same place twice, and how the world seems to be rotated when you do return. All this matters for the gameplay. The game is inspired by the roguelike genre (although in a very minimalist way), works of M. C. Escher, and by puzzle games such as Deadly Rooms of Death.",
+    "links": {
+  		"home": "http://www.roguetemple.com/z/hyper/",
+      "steam": "http://store.steampowered.com/app/342610",
+      "steam_leaderboards": "http://steamcommunity.com/stats/342610/leaderboards/646149",
+      "steam_community": "http://steamcommunity.com/app/342610/discussions/",
+      "itch": "http://zenorogue.itch.io/hyperrogue",
+      "github": "https://github.com/zenorogue/hyperrogue",
+      "discord": "https://discord.gg/8G44XkR",
+      "twitter": "http://twitter.com/ZenoRogue",
+      "donations": "https://www.roguetemple.com/z/donate.php?id=everything"
+    },
+    "versions": {
+      "11.2d": {
+        "url": "http://www.roguetemple.com/z/hyper/hyperrogue112d-win.zip",
+        "path": "hyperrogue112d",
+        "exec": "hyper"
+      }
+    }
+	},
+	"ia": {
+		"name": "Infra Arcana",
+    "dev": "Martin Tornqvist",
+    "desc": "Infra Arcana is a Roguelike set in the early 20th century. The goal is to explore the lair of a dreaded cult called The Church of Starry Wisdom. Buried deep beneath their hallowed grounds lies an artifact called The Shining Trapezohedron - a window to all secrets of the universe. Your ultimate goal is to unearth this artifact.\n\nThe theme and inspiration for this game comes mainly from the horror fiction writer H.P. Lovecraft. There is a Lore section on this site that describes some of his mythology. The game also draws flavor from various B-horror movies, as well as the first-person shooter PC game Blood.",
+    "links": {
+		  "home": "https://sites.google.com/site/infraarcana/",
+      "discord": "https://discord.gg/kt5Tvw7",
+      "reddit": "https://www.reddit.com/r/InfraArcana/",
+      "rpgcodex_forum": "https://rpgcodex.net/forums/index.php?threads/infra-arcana-an-h-p-lovecraft-horror-based-roguelike.62701/",
+      "totr_forum": "https://forums.roguetemple.com//index.php?PHPSESSID=vhmpe88g7vds0mk18lca796un1&topic=1657.0",
+      "changelog": "https://gitlab.com/martin-tornqvist/ia/raw/master/installed_files/release_history.txt",
+      "releases": "https://sites.google.com/site/infraarcana/downloads",
+      "gitlab": "https://gitlab.com/martin-tornqvist/ia",
+      "donations": "https://sites.google.com/site/infraarcana/donate"
+    },
+    "versions": {
+      "20.0": {
+        "url": "https://gitlab.com/martin-tornqvist/ia/-/jobs/artifacts/master/download?job=build-windows",
+        "path": "ia windows x64 c38f34aa 2019-12-17",
+        "exec": "ia"
+      },
+      "19.2": {
+        "url": "https://github.com/martin-tornqvist/ia/releases/download/v19.2/ia.v19.2.windows.x86.zip",
+        "path": "ia windows x64 962c5fc1 2019-11-08",
+        "exec": "ia"
+      }
+    }
+	},
+  "intricacy": {
+    "name": "Intricacy",
+    "dev": "mbays",
+    "desc": "A game of competitive puzzle-design.\n\nBy ruthlessly guarded secret arrangement, the council's agents can pick any lock in the city. A secret guild produces the necessary locks - apparently secure, but with fatal hidden flaws. A ritual game is played to determine the best designs; to master it, you must build locks which can be picked only by one who knows the secret, and you must discover the secret flaws in the locks designed by your colleagues.\n\nCoordinate a pair of tools to pick locks devised by other players in a mechanistic turn-based puzzle game; construct intricate locks of your own to protect the secrets you discover.\n\nFree software, released under the GPLv3.\n\nWritten in Haskell, with SDL and Curses user interfaces.",
+    "tags": ["puzzle"],
+    "links": {
+      "home": "http://mbays.freeshell.org/intricacy/",
+      "forum": "http://intricacy.thegonz.net/forum/",
+      "old_releases": "http://mbays.freeshell.org/intricacy/old"
+    },
+    "versions": {
+      "0.7.1.1": {
+        "url": "http://mbays.freeshell.org/intricacy/intricacy-0.7.1.1-win32.zip",
+        "path": "intricacy-0.7.1.1",
+        "exec": "intricacy"
+      }
+    },
+    "disabled": true
+  },
+	"ivan": {
+		"name": "Iter Vehemens ad Necem (IVAN)",
+    "dev": "Community",
+    "desc": "Fellow adventurer, turn back while you can! For here begins the roguelike Iter Vehemens ad Necem, a Violent Road to Death. If you choose to travel along it, you will dive into countless exciting adventures to gain items of great magic, attain powerful equipment made of mysterious materials, bathe in the blessings of mighty gods and recruit loyal allies of various shapes and sizes. Unfortunately, along the way you will also often be dangerously injured, poisoned, catch numerous diseases, lose several limbs and transform into manifold different kinds of pitiful creatures in the darkest depths of hostile dungeons. And, at the end of the road, you are bound to perish in a most gruesome and painful way.\n\nDon't say we didn't warn you.",
+    "links": {
+		  "home": "https://attnam.com/",
+      "wiki": "https://attnam.com/wiki/",
+      "forum": "https://attnam.com/forum",
+      "high_scores": "https://attnam.com/honor-rolls",
+      "dev_forum": "https://attnam.com/forums/IVAN-Development",
+      "variants": "https://attnam.com/projects/variants",
+      "github": "https://github.com/Attnam/ivan/",
+      "sourceforge": "http://ivan.sourceforge.net/"
+    },
+    "versions": {
+      "057": {
+        "url": "https://github.com/Attnam/ivan/releases/download/v057/Ivan-v057-Win.zip",
+        "path": "IVAN-v057-win",
+        "exec": "ivan"
+      }
+    }
+	},
+  "lambda": {
+    "name": "LambdaRogue",
+    "dev": "Mario Donick",
+    "desc": "NOTE: This game has much newer releases on Itch.io (link on the right)\n\nLambdaRogue: The Book of Stars is a complete roguelike role playing game, with unique features and story, distinct atmosphere and feel, and a user-friendly, but traditional interface. LambdaRogue was created in 2006 by Mario Donick.\n\nFind the Book of Stars and set mankind free in story mode, or fight Eris, the evil deity, in the shorter Coffeebreak mode — the choice is yours.",
+    "tags": [],
+    "links": {
+      "home": "https://lambdarogue.com/",
+      "itch": "https://mariodonick.itch.io/lambdarogue-the-book-of-stars",
+      "guide": "https://lambdarogue.com/2018/12/22/guide/",
+      "old_releases": "https://code.google.com/archive/p/lambdarogue/downloads"
+    },
+    "versions": {
+      "1.0": {
+        "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/lambdarogue/LambdaRogue_1.6.1_win32.zip",
+        "path": "LambdaRogue_1.6.1_win32",
+        "exec": "lambdarogue"
+      }
+    }
+  },
+  "labydx": {
+    "name": "Lost Labyrinth DX (LabyDX)",
+    "dev": "Johan Jansen",
+    "desc": "Lost Labyrinth is a coffeebreak dungeon crawling game!\n\nCompared to other games of its kind it has the following features:\n\nRelatively short gameplay (between 10-40 Minutes)\n- Very high replayability because everything is created at random!\n- Over 139 unique traits to choose from (every player needs another tactic!)\n- More than 355 unique magical spells, skills and abilities\n- Defeat over 316 unique monsters\n- No experience gain for killing monsters (only for reaching new levels!)\n- Classic roguelike graphics agumented with modern xBRZ algorithms for high resolution rendering\n- Smooth scrolling\n- Control with mouse and keyboard\n- Portable versions across Windows, Macintosh and Linux\n\nLost Labyrinth DX is a modern remake of the classic Lost Labyrinth dungeon-crawling roguelike. It aims to keep the unique feature rich mechanics of the original Lost Labyrinth game with new features and enhancements.\n\nIn addition the enhanced edition of the game features numerous new traits, spells, items, monsters and a lot of other new game content. Including everything from the Extended Edition of the original game! Lost Labyrinth DX is created by one of the developers of the original game and is completely free.",
+    "tags": ["coffee"],
+    "links": {
+      "home": "https://www.labydx.com/",
+      "forum": "https://www.labydx.com/phpBB3",
+      "leaderboards": "https://www.labydx.com/highscore?page=0&sortby=score"
+    },
+    "versions": {
+      "1.6.1": {
+        "url": "https://www.labydx.com/downloads/labydx_windows_1.6.1.exe",
+        "path": "labydx_windows_1.6.1",
+        "exec": "laby_dx"
+      }
+    }
+  },
+  "larn": {
+    "name": "Larn",
+    "dev": "Noah Morgan, mantained by Gibbon",
+    "desc": "Larn was the first roguelike game to feature multiple dungeons with a sort of surface world (in this case, a town) to connect them. The town, which is persistent, like the dungeon levels (advanced for the time), and features shops to exchange items, schools to improve skills, and a bank to store valuables. The dungeon has branch offices of the town's bank. Larn is also time-limited, achieving the main goal too late counts as losing the game. The player is trying to find an item which can cure his ailing daughter, and for which there is a Nethack-like extended quest. If the time limit is reached, the daughter dies.\n\nA few features which are unique to Larn and make it worth playing:\nIdentification is always successful. The scroll/potion type will always be known to the player regardless whether the player received any clue about the usage of the particular item.\nThe Scroll of gem perfection enhances the value of carried gems.\nIf a character manages to win Larn, his successor will have to pay taxes, which depend on the amount of gold brought to the surface.\nGold pieces stored in the bank earn interest over time.\nSpells are cast by typing a 3-letter mnemonic. For example, magic missile is MLE.\nThe level generation is exceptionally varied: You can find mazes, rows of rooms with doors, round chambers, and open spaces with or without pillars, but still generated at random as in any other roguelike.\nMany other conventional Roguelike features are also given a unique spin (many conventions in the genre were less set in stone), and it can be an interesting change of pace.",
+    "tags": ["old"],
+    "links": {
+      "home": "https://github.com/atsb/RL_M",
+      "releases": "https://github.com/atsb/RL_M/releases/",
+      "roguebasin": "http://www.roguebasin.com/index.php?title=Larn"
+    },
+    "versions": {
+      "14.1.2": {
+        "url": "https://github.com/atsb/RL_M/releases/download/14.1.2/larn1412_win64.zip",
+        "path": "",
+        "exec": "larn"
+      }
+    }
+  },
+  "saladir": {
+    "name": "Legend of Saladir",
+    "dev": "Erno Tuomainen",
+    "desc": "Legend of Saladir is an old DOS interesting Roguelike game, and superficially seems very much the same as Rogue, Nethack and other similar games in the genre (ASCII graphics, random dungeons, fantasy theme, etc). However it does include some subtleties that set it apart from these other games. The first time I played I came across some of the monsters in the game fighting each other. The narration in the game also appears above par. However, probably only fans of the Roguelike subgenre will appreaciate this game, others should probably try Rogue or Nethack first.",
+    "tags": ["dos", "old"],
+    "links": {
+      "home": "https://bitbucket.org/codesmith/saladir/src/master/",
+      "dosgames": "https://www.dosgames.com/game/legend-of-saladir/"
+    },
+    "versions": {
+      "3.4": {
+        "url": "https://www.dosgames.com/files/salad34.zip",
+        "flags": ["dos"],
+        "path": "",
+        "exec": "saladir"
+      }
+    }
+  },
+  "madness": {
+    "name": "Madness",
+    "dev": "pwmarcz",
+    "desc": "Madness is a 2010 seven-day roguelike about darkness and insanity.",
+    "tags": ["7drl", "coffee"],
+    "links": {
+      "home": "https://pwmarcz.pl/madness/"
+    },
+    "versions": {
+      "1.0": {
+        "url": "https://pwmarcz.pl/madness/madness10fix.rar",
+        "path": "madness",
+        "exec": "madness"
+      }
+    }
+  },
+  "magus": {
+    "name": "Magus",
+    "dev": "Ronny Wester",
+    "desc": "Magus is an obscure DOS rogue-like released in the mid-90's, by Ronny Wester, better known for creating Cyberdogs and C-Dogs.",
+    "tags": ["dos", "old"],
+    "links": {
+      "home": "https://github.com/cxong/MagusPreservation"
+    },
+    "versions": {
+      "3rdEd": {
+        "url": "https://github.com/cxong/MagusPreservation/archive/master.zip",
+        "flags": ["dos"],
+        "path": "MagusPreservation-master\\magus 3rd edition",
+        "exec": "magus"
+      }
+    }
+  },
+  "mike": {
+    "name": "Mike's Adventure Game (MAG)",
+    "dev": "Michael J. Teixeira",
+    "desc": "An old roguelike from the early days. Compared to more recent games like Nethack and ADOM, MAG is lacking a lot of depth, and is clearly derivative of those games. However for someone new to the Roguelike genre of ASCII graphics and randomly generated dungeons, MAG could serve as a superb introduction.\n\nFrom the author:\n\nWhen I wrote MAG, I tried to stay very true to the Rogue ideal. It's basically a slight super-set of Rogue. I did make an effort to treat monsters the same as the player. For example, intelligent monsters can pick up a wand and shoot the player. Monsters can  also blunder into hidden traps just the same as the player. It is very difficult to win, but definately possible from the reports I've gotten over the years.",
+    "tags": ["dos", "old"],
+    "links": {
+      "home": "https://web.archive.org/web/20040619182621/http://www.mo.himolde.no/~knan/roguelike/93.html",
+      "dosgames": "https://www.dosgames.com/game/mikes-adventure-game-mag/"
+    },
+    "versions": {
+      "1.1": {
+        "url": "https://www.dosgames.com/files/mag.zip",
+        "flags": ["dos"],
+        "path": "",
+        "exec": "mag"
+      }
+    }
+  },
+	"nethack": {
+		"name": "NetHack",
+    "dev": "Mike Stephenson and community",
+    "desc": "Congratulations adventurer!\n\nYour quest is at an end for you have reached the home of NetHack.\nWithin, the Wizard of Yendor has no power, the Oracle speaks with utmost clarity, and the grid bugs do not bite.\nClick friend and enter.",
+    "links": {
+		  "home": "http://nethack.org/",
+      "basics": "http://nethack.org/common/info.html#Basic",
+      "github": "https://github.com/NetHack/NetHack",
+      "old_releases": "http://nethack.org/common/previous.html"
+    },
+    "versions": {
+      "3.6.4": {
+        "url": "https://nethack.org/download/3.6.4/nethack-364-win-x86-Dec21.zip",
+        "path": "",
+        "exec": "NetHack"
+      },
+      "3.6.3": {
+        "url": "https://nethack.org/download/3.6.3/nethack-363-win-x86.zip",
+        "path": "",
+        "exec": "NetHack"
+      },
+      "3.6.2": {
+        "url": "http://nethack.org/download/3.6.2/NetHack-362-win-x86.zip",
+        "path": "",
+        "exec": "NetHack"
+      }
+    }
+	},
+  "nlarn": {
+    "name": "NLarn",
+    "dev": "Noah Morgan (original Larn) and jaydg port",
+    "desc": "A rewrite of Noah Morgan's classic roguelike game Larn (1986). NLarn tries to maintain the atmosphere and story of the original game while improving the gameplay by using state-of-the-art roguelike technology and a simplified user interface.\n\nAbout:\n\nNLarn is a roguelike game and as such a remake of the classic game Larn.\n\nMy intention when starting this project was to get a copy of Larn that one could actually play: I just couldn’t stand the user interface of the original. To improve it, I peeked into the original code, which revealed to be unmaintainable. So a rewrite seemed to be the best idea - and that is what I did.\n\nAs I never really played Larn, NLarn might be quite different to Larn in certain areas, but at least I tried to follow the original. Some aspects of Larn’s game-play (which I only experienced by reading the code) seemed a bit weird and didn’t suit my taste, so I changed them intentionally. Other changes are caused by the unreadability of Larn’s code.\n\nAs today’s computers are a bit more advanced compared to those in the eighties, I could do a completely different approach to how things are handled under the cover.\n\nVery noticeable differences to the original so far include:\n\n+ advanced user interface\n+ extremely different item handling\n+ extended monster AI\n+ a real town\n+ \"graphical\" effects\n+ colour",
+    "tags": [],
+    "links": {
+      "home": "https://nlarn.github.io/",
+      "wiki": "https://github.com/nlarn/nlarn/wiki",
+      "github": "https://github.com/nlarn/nlarn",
+      "sourceforge": "https://sourceforge.net/projects/nlarn/"
+    },
+    "versions": {
+      "0.7.3": {
+        "url": "https://ufpr.dl.sourceforge.net/project/nlarn/nlarn/0.7.3/nlarn-0.7.3_win32.i686.zip",
+        "path": "nlarn-0.7.3",
+        "exec": "nlarn"
+      }
+    }
+  },
+  "omegawin": {
+    "name": "Omega (for Windows)",
+    "dev": "Laurence R. Brothers and port by Geoff Dunbar",
+    "desc": "Omega is a roguelike game originally written by Laurence Brothers in the late 80s. It was the first roguelike game with a large 'countryside', plot development, quotable quotes, and a sense of humor.\n\nFrom Geoff: Omega is a rare roguelike game, designed to be played on a character-mode screen. I have compiled this version for Windows because (for whatever reason) I was unable to get the old DOS version working.",
+    "tags": [],
+    "links": {
+      "home": "https://www.prankster.com/wp/winomega/",
+      "github": "https://github.com/geoffdunbar/winomega",
+      "omega_dist": "http://www.alcyone.com/max/projects/omega/",
+      "sourceforge": "http://sourceforge.net/projects/omega-roguelike"
+    },
+    "versions": {
+      "0.90.4": {
+        "url": "https://www.prankster.com/wp/wp-content/uploads/2019/10/WinOmega_0_3.zip",
+        "flags": ["double_extract"],
+        "path": "",
+        "exec": "winomega"
+      }
+    }
+  },
+  "poscheng": {
+    "name": "PosChengband",
+    "dev": "Chris Kousky",
+    "desc": "PosChengband is a roguelike dungeon adventure game, an Angband variant.\n\nThe purpose of the game is to defeat the Morgoth, Lord of Darkness. You may play a variety of races including elves, hobbits, dwarves, half giants, half trolls and even various monster races. You may play a variety of classes including hack and slash warriors or spell wielding mages. The game is littered with powerful and rare artifacts to assist you on your challenging quest. But the road is long. The enemy's forces have grown numerous and fester in the deep. Perhaps death awaits you? Perhaps glory? Are you up for the challenge?\n\nAs the name implies, PosChengband attempts a merger Chengband with ideas from Posband and RePosBand.  However, many of the features, races and classes of Chengband have been extensively modified and quite a few of the new Chengband classes have been redesigned from scratch. So it seemed like a completely new variant was in order.",
+    "tags": ["variant", "variant-angband"],
+    "links": {
+      "home": "https://sites.google.com/site/poschengband/"
+    },
+    "versions": {
+      "7.1.1": {
+        "url": "https://sites.google.com/site/poschengband/file-cabinet/poschengband-7.1.1.zip",
+        "path": "",
+        "exec": "poschengband"
+      }
+    }
+  },
+	"powder": {
+		"name": "POWDER",
+    "dev": "Jeff Lait",
+    "desc": "POWDER is easy to describe: A Roguelike designed for the Gameboy Advance and Nintendo DS.",
+    "links": {
+		  "home": "http://www.zincland.com/powder/",
+      "bestiary": "http://www.zincland.com/powder/index.php?pagename=mobs",
+      "spell_tome": "http://www.zincland.com/powder/index.php?pagename=spells"
+    },
+    "versions": {
+      "118": {
+        "url": "http://www.zincland.com/powder/release/powder118_win.zip",
+        "path": "",
+        "exec": "powder"
+      }
+    }
+	},
+  "princess": {
+    "name": "PrincessRL",
+    "dev": "flend",
+    "desc": "PrincessRL is a roguelike inspired by the Princess Maker series of games. Will you be able to take your Princess safely and successfully from Princess school, learn the skills required to be a proper lady, and maybe, just maybe find a Prince?\n\nPrincessRL was my entry in the 7-day Roguelike Contest 2010 where it scored 2.61 / 3 in the 2010 7DRL Challenge Evaluation Process. Starting from a slightly upgraded DDRogue engine, the game was written within 7 days.",
+    "tags": ["7drl", "coffee"],
+    "links": {
+      "home": "http://flend.net/princessrl/index.html",
+      "github": "http://github.com/flend/roguelike",
+      "devlog": "http://ddrogue.livejournal.com/"
+    },
+    "versions": {
+      "1.04": {
+        "url": "http://flend.net/files/princessrl-v104.zip",
+        "path": "princessrl",
+        "exec": "PrincessRL"
+      }
+    }
+  },
+  "rogue": {
+    "name": "Rogue (DOS)",
+    "dev": "Micheal Toy, Glenn Wichman, and Kenneth Arnold",
+    "desc": "The original Roguelike! It may have primitive graphics (ASCII), and no sound, but it's still quite enjoyable. People love these sorts of games because they're so indepth, and different every time you play.",
+    "tags": ["dos", "old"],
+    "links": {
+      "home": "https://en.wikipedia.org/wiki/Rogue_(video_game)",
+      "dosgames": "https://www.dosgames.com/game/rogue/"
+    },
+    "versions": {
+      "1.1": {
+        "url": "https://www.dosgames.com/files/rogue.zip",
+        "flags": ["dos"],
+        "path": "",
+        "exec": "rogue"
+      }
+    } 
+  },
+	"roguewin": {
+		"name": "Rogue (for Windows)",
+    "dev": "Tim Stoehr and others. Port by Geoff Dunbar.",
+    "desc": "Rogue is the original 'roguelike game', designed to be played on a character-only screen.  This is the first version of my port of rogue to Windows.  There was an old DOS version floating around, but I couldn't find a native Windows version, so I compiled it myself.",
+    "links": {
+		  "home": "https://www.prankster.com/winrogue/index.htm",
+      "guide": "http://db.gamefaqs.com/computer/doswin/file/rogue_a.txt"
+    },
+    "versions": {
+      "5.3": {
+        "url": "https://www.prankster.com/winrogue/winrogue_0_1.zip",
+        "path": "",
+        "exec": "rogue"
+      }
+    }
+	},
+  "roguebox": {
+    "name": "RogueBox Adventures",
+    "dev": "themightyglider",
+    "desc": "RogueBox Adventures is a free (as in freedom) mix out of classical roguelike and sandbox game.\n\nFeatures:\n\n- A new fully procedural generated game world\n* many different surroundings to explore\n* more then 20 different monsters\n* lot of items and equipment to loot\n\n- Easy to access\n* very lightwight and easy to learn RPG system\n* playable with keybord, mouse or gamepad\n\n- Almost infinite possiblities\n* build walls, floor, doors, stairs and agriculture\n* unique crafting system\n* placeable items\n\n- Pixelart graphics!!!",
+    "tags": ["coffee", "sandbox", "crafting", "rpg"],
+    "links": {
+      "home": "https://rogueboxadventures.tuxfamily.org/",
+      "itch": "https://themightyglider.itch.io/roguebox-adventures",
+      "bugs": "https://notabug.org/themightyglider/RogueBoxAdventures/issues",
+      "releases": "https://download.tuxfamily.org/rba/"
+    },
+    "versions": {
+      "2.2.1": {
+        "url": "https://download.tuxfamily.org/rba/RogueBoxAdventures_v2_2_1_Windows_32Bit.zip",
+        "path": "RogueBoxAdventures_2_2_1_Windows_32Bit",
+        "exec": "run"
+      }
+    }
+  },
+  "rldr": {
+    "name": "RogueLegends: Dark Realms",
+    "dev": "Michael Hamm aka Untrustedlife",
+    "desc": "Roguelegends: Dark Realms, is a dark fantasy, cosmic horror Lovecraftian roguelike gamewith deep lore and heavy amounts of procedural content.\n\nIt is inspired by the concepts behind the brilliant game : Ultima Ratio Regum, and Dwarf Fortress, with the dark fantasy nature inspired directly by the humorous dark fantasy game Overlord, also inspired by the works of HP lovecraft and the table top game Silent Legions\n\nIt is written in c++ with help from libtcod and is still in development!\n\nThe focus of the game is on procedural mechanics and providing procedural exposition to go with it.",
+    "tags": ["horror", "lovecraft"],
+    "links": {
+      "home": "https://untrustedlife.com/project-random-world-development/",
+      "itch": "https://untrustedlife.itch.io/roguelegends-dark-realms-0182",
+      "patreon": "https://www.patreon.com/Untrustedlife"
+    },
+    "versions": {
+      "0.2.0": {
+        "url": "https://www.dropbox.com/s/z4jaa2peji0k5pu/Roguelegends%20Dark%20Realms%20%28RLDR%29%20version%200.2.0%20Dev%20Build.zip?dl=1",
+        "path": "Roguelegends Dark Realms (RLDR) version 0.2.0 Dev Build\\Roguelegends Dark Realms (RLDR)",
+        "exec": "RLDR"
+      }
+    }
+  },
+  "sotw": {
+    "name": "Shadow of the Wyrm",
+    "dev": "Julian Day",
+    "desc": "Shadow of the Wyrm is a single player, traditional roguelike. You play a shipwrecked adventurer, washed up on the shore of a small island. Nearby are a small village, a ruined keep, and an ancient dungeon. In the far distance lie lands full of elves and dragons, monsters and demons. A cold wind blows; there is chaos on the air.\n\nShadow of the Wyrm is a roguelike in the tradition of ADOM and Omega. It features a large, open world, full of places to explore, people to meet, and things that want to kill you. You take the role of a single character, and attempt to guide him or her to the ends of the world. Find a boat, set sail, and explore the islands around you. Receive quests, become a force for good or evil (or neither!), and become the champion of your deity. There are ten races and nineteen classes to choose from, and nine deities that watch over the world, each with their own likes and dislikes, saints and sins.",
+    "links": {
+      "home": "https://www.shadowofthewyrm.org/",
+      "itch": "https://jcd748.itch.io/shadow-of-the-wyrm",
+      "github": "https://github.com/prolog/shadow-of-the-wyrm",
+      "twitter": "https://twitter.com/jcd748",
+      "discord": "https://discord.gg/Hq8wPcs"
+    },
+    "versions": {
+      "1.1.5.1": {
+        "url": "https://www.shadowofthewyrm.org/releases/ShadowOfTheWyrm-Win-1.1.5.1.zip",
+        "path": "",
+        "exec": "sotw"
+      }
+    }
+  },
+	"sil": {
+		"name": "Sil",
+    "dev": "???",
+    "desc": "A game of adventure set\nin the first age of Middle-earth,\nwhen the world still rang with elven song\nand gleamed with dwarven mail.\n\nWalk the dark halls of Angband.\nSlay creatures black and fell.\nWrest a shining Silmaril from Morgoth’s iron crown.",
+    "tags": ["variant", "variant-angband"],
+    "links": {
+		  "home": "http://www.amirrorclear.net/flowers/game/sil/",
+      "forum": "http://angband.oook.cz/forum/showthread.php?t=5216",
+      "changelog": "http://www.amirrorclear.net/flowers/game/sil/changes.txt",
+      "pdf_manual": "http://www.amirrorclear.net/flowers/game/sil/Sil-130-Manual.pdf",
+      "old_releases": "http://www.amirrorclear.net/flowers/game/sil/old.html"
+    },
+    "versions": {
+      "1.3": {
+        "url": "http://www.amirrorclear.net/flowers/game/sil/Sil-130-Win.zip",
+        "path": "Sil",
+        "exec": "sil"
+      }
+    }
+	},
+  "silq": {
+    "name": "Sil-Q",
+    "dev": "Quirk",
+    "desc": "Sil-Q is a computer role-playing game with a strong emphasis on discovery and tactical combat. It has a simple but rich combat system which allows for a great variety of choice.\n\nSil-Q continues the development of Sil which hasn't been updated for a while.",
+    "tags": ["variant", "variant-angband", "fork"],
+    "links": {
+      "home": "https://github.com/sil-quirk/sil-q",
+      "releases": "https://github.com/sil-quirk/sil-q/releases"
+    },
+    "versions": {
+      "1.4.2": {
+        "url": "https://github.com/sil-quirk/sil-q/releases/download/v1.4.2/Sil-Q.1.4.2.zip",
+        "path": "",
+        "exec": "sil"
+      }
+    },
+    "disabled": true
+  },
+  "slex": {
+    "name": "Slash'EM Extended",
+    "dev": "AmyBSOD",
+    "desc": "Slash'EM Extended (also known as 'Sadistic Levels of Endless X-Citement', or SLEX for short) is a variant of SLASH'EM based on SLASH'EM version 0.0.7E7F2. The object of the game is the same: to fetch the Amulet of Yendor from the bottom of the Gehennom and offer it to your god.\n\nCompared to SLASH'EM, Slash'EM Extended contains several new roles and races for the player to choose from, several new special levels, a lot of new monsters, and other changes. The main dungeon is longer in Slash'EM Extended than in SLASH'EM, with the upper Dungeons of Doom being 50 levels in length followed by 50 levels of Gehennom, meaning that Moloch's Sanctum is on dungeon level 100. After claiming the Amulet of Yendor, the player also needs to complete a 100-level bonus dungeon before the actual ascension run begins, greatly increasing the length of the game. And most importantly, Slash'EM Extended is hard as hell!!!\n\nThis variant is actively being developed by the one-woman dev team of User:Bluescreenofdeath (a.k.a. Amy). (and more recently User:Elronnd, so a 2 person dev-team now)",
+    "tags": ["variant", "variant-nethack"],
+    "links": {
+      "home": "https://github.com/SLASHEM-Extended/SLASHEM-Extended",
+      "nethack_wiki": "https://nethackwiki.com/wiki/Slash'EM_Extended"
+    },
+    "versions": {
+      "2.60": {
+        "url": "https://github.com/SLASHEM-Extended/SLASHEM-Extended/raw/master/slashemextended.zip",
+        "path": "",
+        "exec": "slashem"
+      }
+    }
+  },
+  "slashthem": {
+    "name": "SLASHTHEM",
+    "dev": "Soviet5lo",
+    "desc": "SLASHTHEM (github page) is a variant of Slash'EM Extended version 75 currently maintained and developed by Soviet5lo. Originally called “Slash'EM Extended Mod”, its name was then changed to SLASHTHEM, short for “Super Lotsa Added Stuff Hack—The Heavily Extended Mod”. SLASHTHEM's primary goals are to make all of the added roles and races feel unique to each other, and balance the game back to Slash'EM levels.",
+    "tags": ["variant", "variant-nethack", "variant-slashem"],
+    "links": {
+      "home": "https://github.com/Soviet5lo/SlashTHEM"
+    },
+    "versions": {
+      "0.8.0": {
+        "url": "https://github.com/Soviet5lo/SlashTHEM/releases/download/v0.8.0/slashthem-0.8.0-Win64.zip",
+        "path": "slashthem-0.8.0",
+        "exec": "slashthem"
+      }
+    }
+  },
+  "smith": {
+    "name": "The Smith's Hand",
+    "dev": "Jeff Lait",
+    "desc": "An earthquake has opened a mysterious cave in the mountains north of your village. Fortunately, this time all the villagers properly followed the elder's advice. Rather than risk life and limb searching it for the vicious orcs that may lie within, we all wisely left this task to professional adventurers.\n\nAs the village smith, it is your task to make sure these adventurers have the equipment they need to defeat whatever evil lies within the cave.\n\nAnd no one will think it amiss if the village should grow richer in the process...",
+    "tags": ["7drl", "coffee"],
+    "links": {
+      "home": "http://www.zincland.com/7drl/smith/"
+    },
+    "versions": {
+      "0.1": {
+        "url": "http://www.zincland.com/7drl/smith/smith7drl.zip",
+        "path": "smith7drl\\windows",
+        "exec": "smith"
+      }
+    }
+  },
+  "spelunky": {
+    "name": "Spelunky",
+    "dev": "Derek Yu (Mossmouth)",
+    "desc": "This is the original freeware version of Spelunky that was released in 2009 and started it all. It's still free, so check it out! However, if you're looking for the HD reboot that was released in 2012, you can find that in the links.\n\n\"Legends speak of a Colossal Cave that extends deep underground, so twisted by time that its passages shift like the sand under which it lies... the Cave is said to be filled with fabulous treasures, but also incredible danger!\"\n\nSpelunky is a cave exploration / treasure-hunting game inspired by classic platform games and roguelikes, where the goal is to grab as much treasure from the cave as possible. Every time you play the cave's layout will be different. Use your wits, your reflexes, and the items available to you to survive and go ever deeper! Perhaps at the end you may find what you're looking for...\n\nDon't be afraid to die! But also don't be afraid to live! Happy Spelunky-ing!",
+    "tags": ["roguelite"],
+    "links": {
+      "home": "https://spelunkyworld.com/original.html",
+      "hd": "https://spelunkyworld.com/buy.html",
+      "forums": "http://mossmouth.com/forums/index.php?board=3.0",
+      "changelog": "http://mossmouth.com/forums/index.php?topic=4.0",
+      "source": "http://www.derekyu.com/games/spelunky_1_1_src.zip"
+    },
+    "versions": {
+      "1.1": {
+        "url": "http://www.derekyu.com/games/spelunky_1_1.zip",
+        "path": "",
+        "exec": "Spelunky"
+      }
+    }
+  },
+  "sunkcoast": {
+    "name": "Sunk Coast",
+    "dev": "Jonathan Whiting",
+    "desc": "An aquatic roguelike by Jonathan Whiting.\n\nYou're flat broke. Legends tell of priceless golden doubloons sunk two hundred fathoms deep. You promised not to do anything stupid, but then again your family need to eat. You strap your final cylinder to your back, adjust your regulator and dive into the water.",
+    "links": {
+      "home": "https://jonathanwhiting.com/coding/sunkcoast/",
+      "github": "https://github.com/whitingjp/SunkCoast"
+    },
+    "versions": {
+      "20130325": {
+        "url": "https://jonathanwhiting.com/coding/sunkcoast/sunkcoast20130325.zip",
+        "path": "sunkcoast",
+        "exec": "sunkcoast"
+      }
+    }
+  },
+  "telen": {
+    "name": "Telengard",
+    "dev": "Daniel Lawrence",
+    "desc": "From Daniel:\n\nThis page is dedicated to Telengard, an ancient computer game which I wrote in 1982. This game was then sold by Avalon Hill, and was available for the Commodore Pet, the Apple, the TRS-80, the Atari 400/800, the Commodore C64 and eventually the IBM-PCjr and the IBM-PC. It is a dungeon crawl, creating an adventurer whom wanders through the depths of the Telengard Dungeon and was itself an evolution of an older program I wrote, DND, which ran on the PDP-11 under RSTS/E and on the DECSystem-20 under TOPS-20.\n\nDND was written on the DECSystem-10 at BOCES Spencerport (New York) where I worked in the summer of 1976 and 1977. It was written in BASIC under the TOPS-10 operating system.\n\nI went to collage at Purdue University and quickly ported DND to the RSTS/E system there in 1977 through 1979. It was very popular with my fellow students there and was, sad to say, the cause of more than one student dropping out of school. Also it made me very unpopular with the computing staff at Purdue. I had one very interesting side trip when I was asked to come out to Maynard, MA to the Mill at Digital Equipment Corporation to port DND to their DECSystem-20. The engineers there were very big fans of the game.\n\nIn 1978, Commodore marketed the first PET 2001. I ponied up the $1200 to get this and I was freed from dependence on the university's machines. I rewrote DND in BASIC, calling it TELENGARD and fitting its early versions into 8K of memory. Luckily memory expansion occurred quickly, and the final version of this ran barely inside a luxurious 32K of memory.\n\nGaining the notice of the people at the Avalon Hill Gaming company, TELENGARD was among their first round of computer game releases. Alas, Avalon Hill is no longer with us. Ports to the Apple and the TRS-80 happened very quickly, after all Microsoft 8K BASIC was very similar in all these machines, just some details about the display and sound had to be recoded. The Atari 400/800 was more challenging, its internal handling of string variables was completely different.",
+    "tags": ["dos", "old"],
+    "links": {
+      "home": "http://www.aquest.com/telen.htm"
+    },
+    "versions": {
+      "pc": {
+        "url": "http://www.aquest.com/downloads/TELEN.ZIP",
+        "flags": ["dos"],
+        "path": "",
+        "exec": "TELEN"
+      }
+    }
+  },
+	"tome4-full": {
+		"name": "Tales of Maj'Eyal (ToME4)",
+    "dev": "DarkGod and various Dark Priests",
+    "desc": "Tales of Maj’Eyal (ToME) is a free, open source roguelike RPG, featuring tactical turn-based combat and advanced character building.  Play as one of many unique races and classes in the lore-filled world of Eyal, exploring random dungeons, facing challenging battles, and developing characters with your own tailored mix of abilities and powers.  With a modern graphical and customisable interface, intuitive mouse control, streamlined mechanics and deep, challenging combat, Tales of Maj’Eyal offers engaging roguelike gameplay for the 21st century.\n\nThe continent of Maj’Eyal lives in a relative peace.  After millennia of war the orcs are extinct, the advanced races have allied together, and the evils of magic have been repressed.  But there are still untamed forests, cursed lands, marauding bandits, sealed dungeons of undead, and whispers spread of hidden cults of mages.  Some even say the orcs are not all dead, and muster their strength in dark places.",
+    "links": {
+      "home": "https://te4.org/",
+      "steam": "https://store.steampowered.com/app/259680/Tales_of_MajEyal/",
+      "steam_community": "https://steamcommunity.com/app/259680/",
+      "gog": "https://www.gog.com/game/tales_of_majeyal",
+      "forums": "http://forums.te4.org/",
+      "wiki": "https://te4.org/wiki",
+      "donations": "https://te4.org/donate",
+      "reddit": "https://www.reddit.com/r/ToME4/",
+      "old_releases": "https://te4.org/download"
+    },
+    "versions": {
+      "1.6.4": {
+        "url": "http://te4.org/dl/t-engine/t-engine4-windows-1.6.4.zip",
+        "path": "t-engine4-windows-1.6.4",
+        "exec": "t-engine"
+      }
+    }
+	},
+	"tome4-nomusic": {
+		"name": "Tales of Maj'Eyal (ToME4) (no music!)",
+    "dev": "DarkGod and various Dark Priests",
+    "desc": "Tales of Maj’Eyal (ToME) is a free, open source roguelike RPG, featuring tactical turn-based combat and advanced character building.  Play as one of many unique races and classes in the lore-filled world of Eyal, exploring random dungeons, facing challenging battles, and developing characters with your own tailored mix of abilities and powers.  With a modern graphical and customisable interface, intuitive mouse control, streamlined mechanics and deep, challenging combat, Tales of Maj’Eyal offers engaging roguelike gameplay for the 21st century.\n\nThe continent of Maj’Eyal lives in a relative peace.  After millennia of war the orcs are extinct, the advanced races have allied together, and the evils of magic have been repressed.  But there are still untamed forests, cursed lands, marauding bandits, sealed dungeons of undead, and whispers spread of hidden cults of mages.  Some even say the orcs are not all dead, and muster their strength in dark places.",
+    "links": {
+      "home": "https://te4.org/",
+      "steam": "https://store.steampowered.com/app/259680/Tales_of_MajEyal/",
+      "steam_community": "https://steamcommunity.com/app/259680/",
+      "gog": "https://www.gog.com/game/tales_of_majeyal",
+      "forums": "http://forums.te4.org/",
+      "wiki": "https://te4.org/wiki",
+      "donations": "https://te4.org/donate",
+      "reddit": "https://www.reddit.com/r/ToME4/",
+      "old_releases": "https://te4.org/download"
+    },
+    "versions": {
+      "1.6.4": {
+        "url": "http://te4.org/dl/t-engine/t-engine4-windows-1.6.4-nomusic.zip",
+        "path": "t-engine4-windows-1.6.4",
+        "exec": "t-engine"
+      }
+    }
+	},
+  "tome2": {
+    "name": "Tales of Middle Earth (ToME2)",
+    "dev": "DarkGod",
+    "desc": "Tales of Middle Earth (ToME) is a fantasy adventure game, based on the works of J.R.R. Tolkien. It is an Angband variant and a game that emphasizes intricate, challenging, and varied gameplay over graphics. Hundreds of different monsters in randomly-generated, unpredictable dungeons will strive to slay you by various means, and you counter - if you survive - by developing the skills of your choice and wielding mighty artifacts. ToME's races from Hobbit to Troll and classes from Swordmaster to Summoner allow for many different playing styles and a replay value that extends through years.",
+    "tags": ["variant", "variant-angband"],
+    "links": {
+      "home": "https://github.com/tome2/tome2"
+    },
+    "versions": {
+      "2.3.5": {
+        "url": "http://www.zaimoni.com/zaiband/Angband.ref/ToME/tome-235-win.zip",
+        "path": "tome-235-win",
+        "exec": "tome"
+      }
+    }
+  },
+  "tome-sx": {
+    "name": "ToME-SX (Sexy Edition)",
+    "dev": "AmyBSOD",
+    "desc": "ToME-SX (short for Sexy Edition) is a variant of the roguelike game ToME, based on version 2.3.5. The scope of this project is to add variety to the game, change some parts that (according to my personal opinion) need changing, and provide other people who are interested in the variant with the possibility of playing and enjoying it too. Have fun!",
+    "tags": ["variant", "variant-angband", "variant-tome2"],
+    "links": {
+      "home": "https://github.com/AmyBSOD/ToME-SX"
+    },
+    "versions": {
+      "2.3.5-sexy": {
+        "url": "https://github.com/AmyBSOD/ToME-SX/archive/master.zip",
+        "path": "ToME-SX-master",
+        "exec": "tome"
+      }
+    }
+  },
+	"tggw": {
+		"name": "The Ground Gives Way",
+    "dev": "BtS",
+    "desc": "A coffee break roguelike with a simple interface, high re-playability, high variation, and lots and lots of stuff...",
+    "links": {
+		  "home": "http://www.thegroundgivesway.com/",
+      "reference_doc": "http://www.thegroundgivesway.com/reference/",
+      "early_game": "http://www.thegroundgivesway.com/early-game-survival-strategies/",
+      "reddit": "https://www.reddit.com/r/thegroundgivesway/",
+      "roguebasin": "http://www.roguebasin.com/index.php?title=The_ground_gives_way",
+      "gamejolt": "http://gamejolt.com/games/rpg/the-ground-gives-way/41937/",
+      "changelog": "http://www.thegroundgivesway.com/changelog/",
+      "old_releases": "http://www.thegroundgivesway.com/download/"
+    },
+    "versions": {
+      "2.5.2": {
+        "url": "http://www.thegroundgivesway.com/?ddownload=2900",
+        "path": "",
+        "exec": "\"The Ground Gives Way\""
+      }
+    }
+	},
+  "ttot": {
+    "name": "The Temple of Torment",
+    "dev": "Aukustus",
+    "desc": "The Temple of Torment is set on a medieval fantasy world, inhabited only by humans, invaded by demons. The game features quest-based gameplay with good and evil choices. The rules are calculated with a simulated d20 die but The Temple of Torment is not compatible with the d20 System. Overall style is D&D-esque combat with mana based spell system. The Temple of Torment could be described as Diablo I meets D&D meets ADOM.\n\nBoth graphical tiles and ASCII tiles are supported. Graphical tiles are 16x16 and ASCII tiles are 16x16 and 8x12. Thus recommended resolution for graphical mode is at least 1366x768. Graphics are from Adam Bolt's Angband tiles with additional tiles from Fernando 'Endorya' Pereira.\n\nThe Temple of Torment features (optional) perma-death, (optional) ASCII-graphics, procedurally generated levels and turn-based gameplay.",
+    "tags": ["diablo", "d20"],
+    "links": {
+      "home": "http://www.thetempleoftorment.net/",
+      "itch": "https://aukustus.itch.io/the-temple-of-torment",
+      "reddit": "https://www.reddit.com/r/TToT/",
+      "old_releases": "http://www.thetempleoftorment.net/downloads/"
+    },
+    "versions": {
+      "19.0": {
+        "url": "http://www.thetempleoftorment.net/wp-content/downloads/TToTd20_Stable190.zip",
+        "path": "TToTd20_Stable190",
+        "exec": "TheTempleofTorment"
+      }
+    }
+  },
+  "toby": {
+    "name": "Toby the Trapper",
+    "dev": "Darren Grey",
+    "desc": "Toby the Trapper is a roguelike in which you can only harm enemies with traps you lay. Control the fast-moving Toby to outwit the smelly ogres and the unique bosses, before taking on the evil might of Wuggy the Warlock. It was made for the Seven Day Roguelike Challenge 2010, but has received some updates since.",
+    "tags": ["7drl", "coffee"],
+    "links": {
+      "home": "http://www.gamesofgrey.com/#trapper",
+      "news": "http://www.gamesofgrey.com/blog/?tag=toby-the-trapper",
+      "roguetemple": "http://www.roguetemple.com/2011/01/12/arrp-2010-toby-the-trapper/"
+    },
+    "versions": {
+      "1.2": {
+        "url": "http://www.gamesofgrey.com/games/trapper/trapper1.2.zip",
+        "flags": [],
+        "path": "trapper",
+        "exec": "trapper1.2.0"
+      }
+    }
+  },
+  "trauma": {
+    "name": "TraumaRL",
+    "dev": "flend",
+    "desc": "TraumaRL was my entry in the 2014 7DRL competition. I worked with ShroomArts who provided 1-bit art assets and playtesting and feedback during the week. It builds upon (and continues the plot of) FlatlineRL.\n\nThe main innovation is a novel graph-based quest engine used to randomize the location of items and objectives in the main plot and to lock off particular areas with keys whilst guaranteeing that the game is always solvable. In order to guide the player, procedural message logs are created and dropped along the player's route to guide them to the next objective.\n\nInspiration-wise, I wanted to take the tight RL shooting mechanics from games like DoomRL and combine with the adventure-style mission of games like System Shock. I wanted to make the mission procedural so it played out differently, but not so random that patterns couldn't be learnt on multiple plays.",
+    "tags": ["7drl", "coffee", "scifi"],
+    "links": {
+      "home": "http://flend.net/traumarl/index.html",
+      "github": "http://github.com/flend/roguelike",
+      "changelog": "http://flend.net/traumarl/changelog.html",
+      "devlog": "http://ddrogue.livejournal.com/"
+    },
+    "versions": {
+      "1.12": {
+        "url": "http://flend.net/files/traumarl-v1.12.zip",
+        "path": "traumarl-v1.12",
+        "exec": "TraumaRL"
+      }
+    }
+  },
+  "urr": {
+    "name": "Ultima Ratio Regnum",
+    "dev": "Dr. Mark R. Johnson",
+    "desc": "Uncover an intellectual conspiracy to rewrite history in the most culturally, religiously and socially detailed procedural world ever generated.\n\nUltima Ratio Regum ('the last argument of kings') is a ten-year project, the first three and a half years of which were completed during my doctoral research. It’s a game which aims to integrate thematic content on historiography, philosophical idealism and the rise of modernist grand narratives, with the deep, complex and challenging gameplay one expects from a 'classic' roguelike (and, of course, an ANSI display and permadeath). Set approximately around the Scientific Revolution, the player is tasked with discovering a conspiracy via identifying procedurally-generated clues hidden throughout the world’s cultures, religions and societies; the game features extensive procedural generation of everything from tombs and religious altars to (in the future) paintings and sculptures, any or all of which may contain the clues required in a given playthrough.",
+    "links": {
+      "home": "http://www.ultimaratioregum.co.uk/",
+      "twitter": "https://twitter.com/#!/UltimaRegum",
+      "fb": "https://www.facebook.com/pages/Ultima-Ratio-Regum/219012228145728",
+      "donations": "http://www.ultimaratioregum.co.uk/game/support/"
+    },
+    "versions": {
+      "0.70b": {
+        "url": "https://www.markrjohnsongames.com/wp-content/uploads/2018/07/URR070b.zip",
+        "path": "",
+        "exec": "\"Ultima Ratio Regum v070b\""
+      }
+    }
+  },
+	"uMoria": {
+		"name": "uMoria",
+    "dev": "Robert A. Koeneke, James E. Wilson, David Grabiner, Michael R. Cook and others through history",
+    "desc": "Embark upon a classic adventure deep into the mines of Moria to test your skill against the mighty Balrog!\n\nThe game of Umoria is a single player dungeon simulation. Starting at the town level, you begin your adventure by stocking up on supplies - weapons, armour, and magical devices - from the various stores. After preparing for your adventure, you descend into the Dungeons of Moria where fantastic adventures await!\nIf you've prepared well and acquired the right skills and experience - with perhaps a little luck too - you can descend to the deepest levels and attempt to defeat the Balrog.",
+    "links": {
+		  "home": "https://umoria.org/",
+      "history": "https://umoria.org/history/",
+      "changelog": "https://umoria.org/highlights/",
+      "github": "https://github.com/dungeons-of-moria/umoria"
+    },
+    "versions": {
+      "5.7.10": {
+        "url": "https://github.com/dungeons-of-moria/umoria/releases/download/v5.7.10/umoria-5-7-10-win64.zip",
+        "path": "umoria",
+        "exec": "umoria"
+      }
+    }
+	},
+  "unangband": {
+    "name": "UnAngband",
+    "dev": "Andrew Doull and others, now Duncan Lowther",
+    "desc": "Unnamed Angband adds over 100 class/style combinations to Angband, 130 new spells, 60 new spell books and spell related objects, over 500 new monsters, 196 features, 230 room descriptions and slightly modifies combat and monster spell casting.",
+    "tags": ["variant", "variant-angband"],
+    "links": {
+      "home": "https://github.com/DGoldDragon28/Unangband",
+      "releases": "https://github.com/DGoldDragon28/Unangband/releases"
+    },
+    "versions": {
+      "0.7.0-pre1": {
+        "url": "https://github.com/DGoldDragon28/Unangband/releases/download/v.0.7.0-pre1/unangband-070pre1-win.zip",
+        "path": "unangband-070pre1-win",
+        "exec": "unangband"
+      }
+    }
+  },
+  "unnethack": {
+    "name": "UnNetHack",
+    "dev": "Comunity",
+    "desc": "UnNetHack is a fork of NetHack, originally based on NetHack version 3.4.3.\n\nIt features more randomness, more levels, more challenges and more fun than vanilla NetHack.\n\nIn a nutshell I would describe UnNetHack as how NetHack would look today if the DevTeam didn't stop releasing, following a modern open source project approach of development.",
+    "tags": ["variant", "variant-nethack"],
+    "links": {
+      "home": "https://unnethack.wordpress.com/",
+      "irc": "irc://irc.freenode.net/unnethack",
+      "usenet": "http://nethack.wikia.com/wiki/Rec.games.roguelike.nethack",
+      "github": "https://github.com/UnNetHack/UnNetHack",
+      "sourceforge": "https://sourceforge.net/projects/unnethack/",
+      "releases": "https://sourceforge.net/projects/unnethack/files/unnethack/"
+    },
+    "versions": {
+      "5.2.0": {
+        "url": "https://ufpr.dl.sourceforge.net/project/unnethack/unnethack/5.2.0/unnethack-win32-5.2.0.zip",
+        "path": "",
+        "exec": "UnNetHack"
+      }
+    }
+  },
+	"urw": {
+		"name": "UnReal World",
+    "dev": "Sami Maaranen and Erkka Lehmus",
+    "desc": "UnReal World is a unique low-fantasy roguelike game set in the far north during the late Iron-Age.\nThe world of the game is highly realistic, rich with historical atmosphere and emphasized on survival in the harsh ancient wilderness.",
+    "tags": ["survival", "open world"],
+    "links": {
+		  "home": "http://www.unrealworld.fi/",
+      "steam": "http://store.steampowered.com/app/351700",
+      "steam_community": "https://steamcommunity.com/app/351700",
+      "forums": "https://www.unrealworld.fi/forums",
+      "wiki": "http://www.unrealworld.fi/wiki",
+      "irc": "https://www.unrealworld.fi/forums/index.php?topic=825.0",
+      "donations": "http://www.unrealworld.fi/urw_donate.html"
+    },
+    "versions": {
+      "3.52": {
+        "url": "http://www.unrealworld.fi/dl/3.52/win/urw-3.52.exe",
+        "flags": [],
+        "path": "",
+        "exec": "urw"
+      }
+    }
+	},
+  "xeno": {
+    "name": "Xenocide",
+    "dev": "Jakub Debski",
+    "desc": "Xenocide is the science-fiction roguelike set in 22nd century. The player must try and survive while fighting his way through waves of human, alien, and robotic foes.",
+    "tags": [],
+    "links": {
+      "home": "http://xeno.chaosforge.org/",
+      "roguebasin": "http://roguebasin.roguelikedevelopment.org/index.php?title=Xenocide"
+    },
+    "versions": {
+      "2007.03.28": {
+        "url": "http://xeno.chaosforge.org/files/xeno-win-snd-2007-03-28.zip",
+        "path": "xeno-win-snd-2007-03-28",
+        "exec": "Xenocide"
+      }
+    }
+  },
+  "xeno-nosnd": {
+    "name": "Xenocide (No Sound)",
+    "dev": "Jakub Debski",
+    "desc": "Xenocide is the science-fiction roguelike set in 22nd century. The player must try and survive while fighting his way through waves of human, alien, and robotic foes.",
+    "tags": [],
+    "links": {
+      "home": "http://xeno.chaosforge.org/",
+      "roguebasin": "http://roguebasin.roguelikedevelopment.org/index.php?title=Xenocide"
+    },
+    "versions": {
+      "2007.03.28": {
+        "url": "http://xeno.chaosforge.org/files/xeno-win-snd-2007-03-28.zip",
+        "path": "xeno-win-2007-03-28",
+        "exec": "Xenocide"
+      }
+    }
+  },
+  "zangband": {
+    "name": "Zangband",
+    "dev": "Steven Fuerst, Robert Ruhlmann, Topi Ylinen, Chris Kern, Eric Bock, Mitsushiro Itakura & Ross Morgan-Linial",
+    "desc": "The game of Zangband is a single player dungeon simulation. A player may choose from a number of races, classes and magic realms when creating a character, and then run thatcharacter over a period of days, weeks, even months. Deep down inside, the real objective of the game is to increase your experience, and certain other characteristics, and also to collect useful items, to give you a decent chance against the great Serpent of Chaos, who lurks somewhere in the depths of the dungeon.\n\nThe player will begin his adventure on the town level where he may acquire supplies, weapons, armor, and magical devices by bartering with various shop owners. After preparing for his adventure, the player can descend into the dungeon where fantastic adventures await his coming!\n\n=== The Zangband DevTeam ===\n\nZangband is currently maintained by a small development team which includes both Zangband's original creator, Topi Ylinen, and Robert Ruehlmann who maintained and developed the game from versions 2.01d through to 2.2.6c. Robert coordinates the efforts of the DevTeam and is the designated project leader.\n\nSince its inception, Zangband has developed a reputation for being more difficult than other Angband variants and its maintainers are known for their devious and contrary natures. The DevTeam neither confirms nor denies its intention to live up to this perception.",
+    "tags": ["variant", "variant-angband"],
+    "links": {
+      "home": "http://www.zangband.org/",
+      "sourceforge": "https://sourceforge.net/projects/zangband/",
+      "irc": "http://www.zangband.org/irc.html"
+    },
+    "versions": {
+      "2.7.5-pre1": {
+        "url": "https://ufpr.dl.sourceforge.net/project/zangband/zangband-win/2.7.5%20preview%20I/zangband-275-pre1-win.zip",
+        "path": "zangband",
+        "exec": "zangband"
+      }
+    }
+  },
+  "zapm": {
+    "name": "ZAPM",
+    "dev": "Cyrus Dolph",
+    "desc": "Zapm is a science fiction roguelike game by Cyrus Dolph.\n\nIt's his humble attempt to create 'the sci-fi Nethack'.",
+    "tags": ["scifi"],
+    "links": {
+      "home": "http://www.zapm.org/",
+      "guidebook": "http://www.zapm.org/Guide.txt"
+    },
+    "versions": {
+      "0.8.2": {
+        "url": "http://www.zapm.org/zapm-0.8.2.win32.zip",
+        "path": "zapm",
+        "exec": "zapm"
+      }
+    }
+  },
+  "zorbus": {
+    "name": "Zorbus",
+    "dev": "Joonas Hirvonen",
+    "desc": "Zorbus is a fantasy-themed, graphical, turn-based, role-playing roguelike game. Your goal is to delve deep into a dungeon, find a portal to a mythical place called the Zorbus where a mere mortal can ascend to demigodhood.\n\nBeing a roguelike game, Zorbus creates the dungeon randomly so that every played game is slightly different. The game uses permadeath meaning that when a character dies, it really is permanent and the player must begin a new game. You can save the game but the save file is deleted when loaded.\n\nThematically Zorbus draws influence from the late 70s and early 80s tabletop D&D campaigns, adventures and lore.\n\nThe goal is to create a tight dungeon crawling experience where the dungeon feels alive, eventful and rich in content. Something more than just boring empty rooms and corridors! Diversely shaped levels with themed content (throne rooms, prisons, lots of hidden treasure caches etc.) with good connectivity between the areas.\n\nImportant part of the living dungeon are the creatures. Creatures act intelligently, might fight each other, flee when threatened and try to gather their friends to overcome a threat. Most creatures can use items and also pick them up from the dungeon floor. Creatures are not silent either but comment on things with speech bubbles.\n\nThe dungeon has dynamic lighting. There are light sources as dungeon furniture and in the hands of creatures and these both can be lit and unlit. Some creatures have darkvision. Creatures react to light and sound.\n\nYou don't have to go to the fight alone but can recruit other creatures along the way.\n\nThe rule system for the game is slightly influenced by the d20 system used in the 3rd edition of Dungeons & Dragons. Zorbus has experience levels but no character classes (race is selected). On each level up, you point buy skills and talents (mostly combat maneuvers and spells).\n\nZorbus does not have item identification or a hunger mechanic.",
+    "links": {
+      "home": "https://www.zorbus.net/",
+      "changelog": "https://www.zorbus.net/Zorbus.txt",
+      "leaderboard": "http://wins.zorbus.net/",
+      "donations": "https://www.zorbus.net/"
+    },
+    "versions": {
+      "27": {
+        "url": "https://www.zorbus.net/Zorbus.zip",
+        "path": "Zorbus",
+        "exec": "Zorbus"
+      }
+    }
+  }
+} 

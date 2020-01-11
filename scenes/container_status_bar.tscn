@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/container_status_bar.gd" type="Script" id=1]
+
+
+[node name="container_status_bar" type="Control"]
+margin_right = 940.0
+margin_bottom = 30.0
+script = ExtResource( 1 )
+
+[node name="status_bar" type="Label" parent="."]
+margin_top = 10.0
+margin_right = 270.0
+margin_bottom = 24.0
+text = "Status bar"
+__meta__ = {
+"_edit_lock_": true
+}

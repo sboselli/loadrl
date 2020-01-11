@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/container_list.gd" type="Script" id=1]
+
+
+[node name="container_list" type="Control"]
+margin_right = 270.0
+margin_bottom = 390.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="bg" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.210938, 0.210938, 0.210938, 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="list_content" type="ScrollContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = -10.0
+margin_bottom = -10.0
+scroll_horizontal_enabled = false
+
+[node name="vbox" type="VBoxContainer" parent="list_content"]
+custom_constants/separation = 0

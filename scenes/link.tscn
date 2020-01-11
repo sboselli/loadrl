@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/link.gd" type="Script" id=1]
+
+[node name="link" type="Control"]
+margin_right = 120.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 0, 16 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 20.0 ]
+}
+
+[node name="btn" type="Button" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+focus_mode = 0
+mouse_default_cursor_shape = 2
+custom_constants/hseparation = -5
+enabled_focus_mode = 0
+flat = true
+align = 0
+[connection signal="pressed" from="btn" to="." method="_on_btn_pressed"]
