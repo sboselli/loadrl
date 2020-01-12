@@ -1,5 +1,4 @@
-# > loadRL @ v0.1
------------------
+# loadRL @ v0.1
 
 A free (free) roguelike loader.
 
