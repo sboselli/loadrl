@@ -42,6 +42,11 @@ versions if you need to (thank the devs who made
 those clearly awful changes /s :) ).
 
 
+### Download
+
+Download [loadRL @ v0.1](https://github.com/sboselli/loadrl/releases/download/0.1/loadrl-20200111.zip) or view [github releases](https://github.com/sboselli/loadrl/releases)
+
+
 ### Installation
 
 Unzip the contents of the zip anywhere. 
