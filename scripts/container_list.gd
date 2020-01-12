@@ -27,5 +27,5 @@ func _update_list():
 # When game is selected via keyboard, update the scroll bar
 func _on_game_selected_kb():
 	var idx = loadRL.db.keys().find(loadRL.selected)
-	$list_content.set_v_scroll(idx * 11.5)	# this magic number... /facepalm
+	$list_content.set_v_scroll(idx * 12)	# this magic number... /facepalm
 	$list_content.update()

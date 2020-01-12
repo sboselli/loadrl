@@ -20,3 +20,5 @@ todo.md
 # DOSBox Standard output
 stderr.txt
 stdout.txt
+
+*.swp

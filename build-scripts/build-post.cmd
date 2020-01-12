@@ -4,9 +4,11 @@ REM Changing exe Icon
 REM Docs
 mkdir ..\bin\docs
 xcopy ..\docs\*.* ..\bin\docs\
-xcopy ..\README.txt ..\bin\
-xcopy ..\README.txt ..\bin\docs\
+xcopy ..\README.md ..\bin\
+ren ..\bin\README.md README.txt
+xcopy ..\README.md ..\bin\
 xcopy ..\LICENSE ..\bin\docs\
+ren ..\bin\docs\LICENSE LICENSE.txt
 del ..\bin\docs\.gdignore
 
 REM Tools

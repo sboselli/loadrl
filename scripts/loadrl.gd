@@ -65,7 +65,7 @@ var time_start = 0
 var time_now = 0
 
 # Home
-const README_FILE = "res://README.txt"
+const README_FILE = "res://README.md"
 
 
 func _ready():

@@ -68,7 +68,8 @@
 		    "path": "adom",
 		    "exec": "adom"
       }
-    }
+    },
+    "disabled": true
 	},
   "alienhack": {
     "name": "Alienhack",
@@ -766,6 +767,11 @@
       "changelog": "https://git.tuxfamily.org/harmonist/harmonist.git/tree/Changes"
     },
     "versions": {
+      "0.3": {
+        "url": "https://download.tuxfamily.org/harmonist/releases/harmonist-0.3.0-windows_amd64.zip",
+        "path": "",
+        "exec": "harmonist"
+      },
       "0.2": {
         "url": "https://download.tuxfamily.org/harmonist/releases/harmonist-0.2-windows_amd64.zip",
         "path": "",
@@ -826,9 +832,9 @@
       "donations": "https://www.roguetemple.com/z/donate.php?id=everything"
     },
     "versions": {
-      "11.2d": {
-        "url": "http://www.roguetemple.com/z/hyper/hyperrogue112d-win.zip",
-        "path": "hyperrogue112d",
+      "11.2q": {
+        "url": "http://www.roguetemple.com/z/hyper/hyperrogue112q-win.zip",
+        "path": "hyperrogue112q",
         "exec": "hyper"
       }
     }
@@ -932,6 +938,11 @@
       "leaderboards": "https://www.labydx.com/highscore?page=0&sortby=score"
     },
     "versions": {
+      "1.6.2": {
+        "url": "https://www.labydx.com/downloads/labydx_windows_1.6.2.exe",
+        "path": "labydx_windows_1.6.2",
+        "exec": "laby_dx"
+      },
       "1.6.1": {
         "url": "https://www.labydx.com/downloads/labydx_windows_1.6.1.exe",
         "path": "labydx_windows_1.6.1",
@@ -1227,6 +1238,11 @@
       "discord": "https://discord.gg/Hq8wPcs"
     },
     "versions": {
+      "1.1.6": {
+        "url": "https://www.shadowofthewyrm.org/releases/ShadowOfTheWyrm-Win-1.1.6.zip",
+        "path": "",
+        "exec": "sotw"
+      },
       "1.1.5.1": {
         "url": "https://www.shadowofthewyrm.org/releases/ShadowOfTheWyrm-Win-1.1.5.1.zip",
         "path": "",
@@ -1656,7 +1672,7 @@
     },
     "versions": {
       "2007.03.28": {
-        "url": "http://xeno.chaosforge.org/files/xeno-win-snd-2007-03-28.zip",
+        "url": "http://xeno.chaosforge.org/files/xeno-win-2007-03-28.zip",
         "path": "xeno-win-2007-03-28",
         "exec": "Xenocide"
       }
