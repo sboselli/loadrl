@@ -15,6 +15,7 @@ data_*/
 # loadRL stuff
 games/
 tools/
+build-scripts/*.zip
 todo.md
 
 # DOSBox Standard output
