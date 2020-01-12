@@ -4,6 +4,8 @@ A free (free) roguelike loader.
 
 https://github.com/sboselli/loadrl
 
+![loadRL @ v0.1](https://raw.githubusercontent.com/sboselli/loadrl/master/img/screenshot-01.png)
+
 ---
 
 ### Intro
