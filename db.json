@@ -744,9 +744,8 @@
     "desc": "Gruesome is a short and difficult coffeebreak roguelike where the player takes control of a Zork-inspired grue. Under this reverse role scenario the player is represented by a black square and the enemies, adventurers, are represented by '@' symbols. Light emitted from adventurers instantly kills the grue, whilst getting adventurers to walk into the grue instantly kills them. The light emitted by adventurers can also be disabled using a shadow spell, allowing the grue to attack and eat them directly. The player starts on the bottom of a cavern system 20 levels deep, and the game is completed by reaching the surface.\n\nThe game is intended to provide simple, fast gameplay with frequent deaths to make it addictive and fun. Unlike many others roguelikes there are no hit points and few stats - light will instantly kill the grue, and the grue can instantly kill adventurers in the right circumstances. There are technically no impossible scenarios, but as the game progresses the caverns become tighter and the enemies more frequent, leading to extremely difficult and tense situations. Levels are non-permanent and can be regenerated to make the game easier. Upon winning the game the player is presented with a number of achievements representing their gameplay habits.",
     "tags": ["7drl"],
     "links": {
-      "home": "https://untrustedlife.com/project-random-world-development/",
-      "itch": "https://untrustedlife.itch.io/roguelegends-dark-realms-0182",
-      "patreon": "https://www.patreon.com/Untrustedlife"
+      "home": "http://www.gamesofgrey.com/",
+      "roguebasin": "http://www.roguebasin.com/index.php?title=Gruesome"
     },
     "versions": {
       "0.0.3": {
