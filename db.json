@@ -1614,7 +1614,7 @@
     },
     "versions": {
       "5.2.0": {
-        "url": "https://ufpr.dl.sourceforge.net/project/unnethack/unnethack/5.2.0/unnethack-win32-5.2.0.zip",
+        "url": "https://ufpr.dl.sourceforge.net/project/unnethack/unnethack/5.2.0/unnethack-win32-5.2.0-1.zip",
         "path": "",
         "exec": "UnNetHack"
       }
