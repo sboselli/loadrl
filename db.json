@@ -327,6 +327,22 @@
       }
     }
   },
+  "chengband": {
+    "name": "Chengband",
+    "dev": "Cris Kousky, Dave Zhang, Andrew Levy",
+    "desc": "This is a fork of the roguelike dungeon adventure game, Hengband.\n\nThe purpose of the game is to defeat the dreaded Serpent of Chaos. You may play a variety of races including elves, hobbits, dwarves, half giants, half trolls and even various undead races. You may play a variety of classes including hack and slash warriors or spell wielding mages. The game is littered with powerful and rare artifacts to assist you on your challenging quest. But the road is long. The enemy's forces have grown numerous and fester in the deep. Perhaps death awaits you? Perhaps glory? Are you up for the challenge?",
+    "tags": ["variant", "variant-angband"],
+    "links": {
+      "home": "https://code.google.com/archive/p/chengband/"
+    },
+    "versions": {
+      "0.0.136": {
+        "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/chengband/chengband.0.0.136.zip",
+        "path": "",
+        "exec": "Chengband"
+      }
+    }
+  },
   "cotc": {
     "name": "City of the Condemned",
     "dev": "Tapio",
@@ -1112,6 +1128,11 @@
       "home": "https://sites.google.com/site/poschengband/"
     },
     "versions": {
+      "7.2.1": {
+        "url": "https://sites.google.com/site/poschengband/file-cabinet/poschengband-7.2.1.zip",
+        "path": "",
+        "exec": "poschengband"
+      },
       "7.1.1": {
         "url": "https://sites.google.com/site/poschengband/file-cabinet/poschengband-7.1.1.zip",
         "path": "",
@@ -1353,6 +1374,24 @@
         "url": "http://www.derekyu.com/games/spelunky_1_1.zip",
         "path": "",
         "exec": "Spelunky"
+      }
+    }
+  },
+  "steamband": {
+    "name": "Steamband",
+    "dev": "Courtney Campbell",
+    "desc": "Steamband is a Steampunk / Victorian / Pulp variant of Angband, A roguelike ASCII dungeon exploration simulation game. Steamband was based off the 2.9.3 version of Angband source code.",
+    "tags": ["variant", "variant-angband", "steampunk"],
+    "links": {
+      "home": "http://angband.oook.cz/steamband/steamband.html",
+      "releases": "http://www.thangorodrim.net/steamband.html",
+      "tricks": "http://angband.oook.cz/steamband/Tricks.pdf"
+    },
+    "versions": {
+      "0.4.0": {
+        "url": "http://angband.oook.cz/steamband/Steamband-0.4.0-win.rar",
+        "path": "",
+        "exec": "angband"
       }
     }
   },
