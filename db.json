@@ -697,6 +697,24 @@
       }
     }
   },
+  "forays": {
+    "name": "Forays into Norrendrin",
+    "dev": "Derrick Creamer",
+    "desc": "Forays into Norrendrin is a traditional roguelike game, with a focus on a streamlined experience and tactical combat that requires difficult choices. You have found yourself in a deep dungeon, filled with monsters and treasure, and you seek to travel to the bottom for reasons unknown. You are prepared for your expedition, or at least you think you are, but if you perish in the deep, there's no coming back -- someone new will have to travel down next time. The dungeon is different every time you play, and who you fight and what you find may be very different from foray to foray.",
+    "tags": [],
+    "links": {
+      "home": "https://forays.github.io/",
+      "github": "https://github.com/Forays/ForaysIntoNorrendrin",
+      "webchat": "http://webchat.quakenet.org/?channels=forays&uio=MTE9MjM20f"
+    },
+    "versions": {
+      "084": {
+        "url": "https://github.com/Forays/ForaysIntoNorrendrin/releases/download/0.8.4/Forays_v084.zip",
+        "path": "Forays_v084",
+        "exec": "Forays"
+      }
+    }
+  },
   "frogcompos": {
     "name": "FrogComposband",
     "dev": "sulkasormi",
