@@ -1,8 +1,8 @@
-# loadRL @ v0.1
+# loadRL @ v0.1.1
 
 A free (free) roguelike loader.
 
-![loadRL @ v0.1](https://raw.githubusercontent.com/sboselli/loadrl/master/img/screenshot-01-gh.png)
+![loadRL @ v0.1.1](https://raw.githubusercontent.com/sboselli/loadrl/master/img/screenshot-01-gh.png)
 
 ---
 
@@ -44,7 +44,7 @@ those clearly awful changes /s :) ).
 
 ### Download
 
-Download [loadRL @ v0.1](https://github.com/sboselli/loadrl/releases/download/0.1/loadrl-20200111.zip) or view [github releases](https://github.com/sboselli/loadrl/releases)
+Download [loadRL @ v0.1.1](https://github.com/sboselli/loadrl/releases/download/0.1.1/loadrl-0.1.1.zip) or view [github releases](https://github.com/sboselli/loadrl/releases)
 
 
 ### Installation
@@ -129,13 +129,14 @@ within the "docs" folder.
 
 1. Open CMD and go to "build-scripts" folder.
 2. Run "build-clean.cmd"
-3. Export project from Godot:
-  a. Use "Export Path": "{project-path}/bin/loadRL.exe"
-  b. In the "Resources" tab, use "Export Mode": "Export all resources"
-  c. In the "Resources" tab, set "Filters to Export" to "db.json, README.txt"
+3. Export project from Godot, using Windows Desktop preset:
+  1. Use "Export Path": "{project-path}/bin/loadRL.exe"
+  2. In the "Resources" tab, use "Export Mode": "Export all resources"
+  3. In the "Resources" tab, set "Filters to Export" to "db.json, README.md, 
+  home.txt, version.txt"
 4. Run "build-post.cmd": You now have a complete working folder in "./bin"
-5. Run "build-package.cmd" to get a distributable datestamped zip 
-in current "build-scripts" folder
+5. Run "build-package.cmd" to get a distributable versioned zip in the 
+current "build-scripts" folder.
 
 
 ### Contributing
