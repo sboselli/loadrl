@@ -1,8 +1,5 @@
-# loadRL @ v0.1.1
 
 A free (free) roguelike loader.
-
-![loadRL @ v0.1.1](https://raw.githubusercontent.com/sboselli/loadrl/master/img/screenshot-01-gh.png)
 
 ---
 
@@ -40,16 +37,6 @@ With literally a couple clicks you can go from zero
 to playing any game on the db, easily switching between 
 versions if you need to (thank the devs who made
 those clearly awful changes /s :) ).
-
-
-### Download
-
-Download [loadRL @ v0.1.1](https://github.com/sboselli/loadrl/releases/download/0.1.1/loadrl-0.1.1.zip) or view [github releases](https://github.com/sboselli/loadrl/releases)
-
-
-### Installation
-
-Unzip the contents of the zip anywhere. 
 
 
 ### Usage
@@ -101,42 +88,6 @@ the "Set Version" button.
 
 loadRL will never delete a game folder, putting at risk a game
 in progress or savefile.
-
-
-### Tools & DOSBox
-
-loadRL relies on the shoulder of giants and ships with the following
-amazing tools to make things possible:
-
-  + curl: to download files
-  + 7z: to extract games
-  + DOSBox: to emuluate DOS for the older native games
-
-Aditionally, for development, we also use:
-
-  + Godot (3.1): to create the program itself
-  + 7z: to create releases
-  + rcedit: to edit the release exe
-  + batch scripts: for build tooling
-  + git & github: for version control, distribution & hosting
-  + GIMP: for the icon & splash
-
-You will find additional information & licenses for all of these 
-within the "docs" folder.
-
-
-### Build instructions
-
-1. Open CMD and go to "build-scripts" folder.
-2. Run "build-clean.cmd"
-3. Export project from Godot, using Windows Desktop preset:
-  1. Use "Export Path": "{project-path}/bin/loadRL.exe"
-  2. In the "Resources" tab, use "Export Mode": "Export all resources"
-  3. In the "Resources" tab, set "Filters to Export" to "db.json, README.md, 
-  home.txt, version.txt"
-4. Run "build-post.cmd": You now have a complete working folder in "./bin"
-5. Run "build-package.cmd" to get a distributable versioned zip in the 
-current "build-scripts" folder.
 
 
 ### Contributing
