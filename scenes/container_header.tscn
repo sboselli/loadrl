@@ -19,7 +19,7 @@ margin_bottom = 30.0
 focus_mode = 0
 mouse_default_cursor_shape = 2
 enabled_focus_mode = 0
-text = " > loadRL @ v.0.1"
+text = " > loadRL @ v."
 __meta__ = {
 "_edit_lock_": true
 }

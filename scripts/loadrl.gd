@@ -29,6 +29,10 @@ var db = {}
 const CONFIG_FILE = "res://config.json"
 var config = {}
 
+# Program version
+const VERSION_FILE = "res://version.txt"
+var version = ""
+
 # Signals
 signal config_loaded
 signal db_loaded
@@ -65,7 +69,7 @@ var time_start = 0
 var time_now = 0
 
 # Home
-const README_FILE = "res://README.md"
+const HOME_FILE = "res://home.txt"
 
 
 func _ready():
@@ -73,9 +77,15 @@ func _ready():
 	check_make_games_dir()
 	load_config_from_file()
 	
+	# Version
+	version = load_text_from_file(VERSION_FILE)
+	
+	# Title
+	$main/container_header/btn_loadrl.text = "> loadRL @ v." + version
+	
 	# Home screen
 	$main/home.set("custom_colors/default_color", COLOR_PARAGRAPH)
-	$main/home.text = load_text_from_file(README_FILE)
+	$main/home.text = "> loadRL @ v." + version + "\n" + load_text_from_file(HOME_FILE)
 	
 	# Init db & update state
 	load_db_from_file()
