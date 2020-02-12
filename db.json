@@ -1413,6 +1413,26 @@
       }
     }
   },
+  "steamsky": {
+    "name": "Steam Sky",
+    "dev": "Thindil",
+    "desc": "Steam Sky is an open source roguelike with a steampunk setting. You are a commander of a flying ship, as leader you will be traveling across floating bases, engaging in combat, trading goods etc. The game is more strategy based than tactical like most of roguelikes. There is no mandatory ending to this game, you may freely play until your character die. The game is currently in a development, but is in a playable state.\n\nFeatures:\n\n+ Buy cheaply, sell expensive: find best trade routes between sky bases.\n+ Do randomly generated missions to gain money and reputation at sky bases.\n+ Manage your ship's crew: give them orders, hire new ones or dismiss old members.\nManage your ship: upgrade installed modules, install new ones, or repair damaged ones.\nCraft items: from tools through repair materials to food.\nFight with enemy ships in tactical combat.",
+    "tags": ["steampunk"],
+    "links": {
+      "home": "https://thindil.itch.io/steam-sky",
+      "discord": "https://discord.gg/r5R8Mnx",
+      "matrix": "https://riot.im/app/#/room/#steamsky:matrix.org",
+      "github": "https://github.com/thindil/steamsky"
+    },
+    "versions": {
+      "4.0.11": {
+        "url": "https://github.com/thindil/steamsky/releases/download/v4.0.11/steamsky-4.0.11-64-bit.exe",
+        "flags": ["inno"],
+        "path": "app\\bin",
+        "exec": "steamsky"
+      }
+    }
+  },
   "sunkcoast": {
     "name": "Sunk Coast",
     "dev": "Jonathan Whiting",
