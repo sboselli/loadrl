@@ -381,6 +381,11 @@ func extract(slug):
 		if db[slug].versions[selected_ver].flags.has("copy_files"):
 			var files_data = db[slug].versions[selected_ver].get("copy_files")
 			OS.execute( "cmd", ["/C robocopy " + game_version_path(slug) + "\\" + files_data[0] + " " + game_version_path(slug) + "\\" + files_data[1] + " /e"], true)
+		if db[slug].versions[selected_ver].flags.has("inno"):
+			# Create game_version_path
+			OS.execute( "cmd", ["/C mkdir " + game_version_path(slug)], true)
+			# run innoextract from within destination folder
+			OS.execute( "cmd", ["/C cd " + game_version_path(slug) + " && ..\\..\\..\\tools\\innoextract.exe ..\\..\\..\\" + dl_fname(slug)], true)
 	
 	# Delete dowloaded file
 	OS.execute("cmd", ["/C del " + dl_fname(slug)], true)

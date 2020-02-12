@@ -15,6 +15,7 @@ xcopy ..\tools\DOSBox ..\bin\tools\DOSBox /s /e /c /i
 xcopy ..\tools\curl.exe ..\bin\tools\
 xcopy ..\tools\7z.exe ..\bin\tools\
 xcopy ..\tools\7z.dll ..\bin\tools\
+xcopy ..\tools\innoextract.exe ..\bin\tools\
 
 REM Config
 xcopy ..\config.json ..\bin\
