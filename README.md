@@ -110,6 +110,7 @@ amazing tools to make things possible:
 
   + curl: to download files
   + 7z: to extract games
+  + innoextract: to unpack self-installing exes
   + DOSBox: to emuluate DOS for the older native games
 
 Aditionally, for development, we also use:

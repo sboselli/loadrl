@@ -1,5 +1,17 @@
 # Changelog
 
+## v.0.2
+### DB Entries
++ Steam Sky (4.0.11)
+
+### Fixes
+
+### Dev
++ Added InnoExtract, to support unpacking self-installing exes.
++ Added Tools to repo (required to fully build)
+
+---
+
 ## v.0.1.1
 ### DB Entries
 + New game added: Steamband (v0.4.0)
@@ -14,6 +26,8 @@
 
 ### Dev
 + Added home & version files
+
+---
 
 ## v.0.1
 + Initial Release
