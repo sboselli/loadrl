@@ -227,8 +227,11 @@ func update_state():
 		### Update install status
 		# Get list of installed versions
 		var installed_versions = []
-		if Directory.new().dir_exists(game_base_path(slug)):
-			for version in db[slug].versions:
+		for version in db[slug].versions:
+			if db[slug].versions[version].has("flags") and db[slug].versions[version].flags.has("web"):
+				installed_versions.append(version)
+				state.total_versions_installed += 1
+			if Directory.new().dir_exists(game_base_path(slug)):
 				if Directory.new().dir_exists(game_base_path(slug) + "\\" + slug + "-" + version):
 					installed_versions.append(version)
 					state.total_versions_installed += 1
@@ -343,7 +346,32 @@ func _on_timer_dl_timeout():
 	run_curl(self.downloading)
 
 func run_curl(slug):
-	OS.execute("tools\\curl", ["-k", "-L", db[slug].versions[selected_ver].url, "-o" + dl_fname(slug)], true)
+	
+	# Check flags or do normal download
+	if db[slug].versions[selected_ver].has("flags") and db[slug].versions[selected_ver].flags.has("itch"):
+		### Itch dl
+		# Get cookie first
+		OS.execute("tools\\curl", ["-k", "-c", "jar.txt", db[slug].versions[selected_ver].url], true)
+		
+		# Use cookie to get a valid dl link for the 'file_id'
+		# 'file_id' can be obtained by inspecting the final Download button
+		var json_res = []
+		OS.execute("tools\\curl", ["-k", "-b", "jar.txt", "-X", "POST", db[slug].versions[selected_ver].url + "/file/" + db[slug].versions[selected_ver].file_id + "?"], true, json_res)
+		
+		# Parse JSON response & get download link
+		var data = JSON.parse(json_res[0])
+		if data.error != OK:
+			print("Error getting Itch download link.")
+			return
+		
+		# Finally download
+		OS.execute("tools\\curl", ["-k", "-L", data.result.url, "-o" + dl_fname(slug)], true)
+		
+	else:
+		### Normal download
+		OS.execute("tools\\curl", ["-k", "-L", db[slug].versions[selected_ver].url, "-o" + dl_fname(slug)], true)
+	
+	# We can now extract the downloaded file
 	extract(slug)
 
 
@@ -399,6 +427,8 @@ func extract(slug):
 func run(slug):
 	if db[slug].versions[selected_ver].has("flags") and db[slug].versions[selected_ver].flags.has("dos"):
 		OS.execute("tools\\DOSBox\\DOSBox.exe", [game_run_path(slug) + "\\" + db[slug].versions[selected_ver].exec + ".exe", "-noconsole"], false)
+	elif db[slug].versions[selected_ver].has("flags") and db[slug].versions[selected_ver].flags.has("web"):
+		OS.shell_open(db[slug].versions[selected_ver].url)
 	else:
 		OS.execute("cmd", ["/C cd " + game_run_path(slug) + " && " + db[slug].versions[selected_ver].exec], false)
 	emit_signal("game_run")
@@ -414,6 +444,20 @@ func _input(ev):
 	# TESTING
 	if ev is InputEventKey:
 		if ev.is_action_pressed("test"):
+			var slug = "summonerrl"
+			var selected_ver = "2.1.0"
+			OS.execute("tools\\curl", ["-k", "-c", "jar.txt", db[slug].versions[selected_ver].url], true)
+		
+			var json_res = []
+			OS.execute("tools\\curl", ["-k", "-b", "jar.txt", "-X", "POST", db[slug].versions[selected_ver].url + "/file/" + db[slug].versions[selected_ver].file_id + "?"], true, json_res)
+			var data = JSON.parse(json_res[0])
+			if data.error != OK:
+				print("Error parsing config file.")
+			
+			OS.execute("tools\\curl", ["-k", "-L", data.result.url, "-o" + dl_fname(slug)], true)
+			
+			
+			
 			print("is_f55: ", is_f5())
 	
 	# Do nothing if waiting
@@ -493,8 +537,14 @@ func _disable_window_drag():
 	window_drag = false
 
 
-# Install status
+# Various checks
+func is_web(slug, ver):
+	return db[slug].versions[ver].has("flags") and db[slug].versions[ver].flags.has("web")
+	
 func is_installed(slug, ver):
+	if is_web(slug, ver):
+		return true
+		
 	return ver in state[slug].installed
 
 func is_any_installed(slug):

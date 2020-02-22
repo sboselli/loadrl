@@ -12,6 +12,8 @@ func _ready():
 	# Init size & text
 	$btn.rect_size = Vector2(320, 10)
 	$btn.text = loadRL.db[slug].name
+	if loadRL.is_web(slug, loadRL.state[slug].default_ver):
+		$btn.text += " (web)"
 	if loadRL.selected == slug:
 		$btn.set("custom_colors/font_color", loadRL.COLOR_GREEN)
 	else:

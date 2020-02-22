@@ -81,7 +81,11 @@ func _update_btn_go():
 		if loadRL.is_installed(loadRL.selected, loadRL.selected_ver):
 			rdy_to_play = true
 			$details_header/btn_go/label.set("custom_colors/default_color", loadRL.COLOR_GREEN)
-			$details_header/btn_go/label.text = ">> PLAY\n"
+			
+			if loadRL.is_web(loadRL.selected, loadRL.selected_ver):
+				$details_header/btn_go/label.text = ">> PLAY (WEB)\n"
+			else:
+				$details_header/btn_go/label.text = ">> PLAY\n"
 		else:
 			rdy_to_play = false
 			$details_header/btn_go/label.set("custom_colors/default_color", loadRL.COLOR_YELLOW)
