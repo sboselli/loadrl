@@ -2,7 +2,6 @@
 
 [ext_resource path="res://scripts/container_list.gd" type="Script" id=1]
 
-
 [node name="container_list" type="Control"]
 margin_right = 270.0
 margin_bottom = 390.0

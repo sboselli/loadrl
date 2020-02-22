@@ -110,6 +110,24 @@
       }
     }
   },
+  "allure": {
+    "name": "Allure of the Stars",
+    "dev": "Man of Letters",
+    "desc": "Allure of the Stars is a near-future Sci-Fi roguelike and tactical squad game in full 16-color 7-bit ASCII. (Linux and Windows binaries and source code are available. The browser version runs fastest on Chrome. Keyboard commands and savefiles are supported only on recent enough versions of browsers. Mouse should work everywhere.)\n\nNot a single picture in this game. You have to imagine everything yourself, like with a book (a grown-up book, without pictures). Once you learn to imagine things, though, you can keep exploring and mastering the world and making up stories for a long time.\n\nThe game is written in Haskell using the free software LambdaHack roguelike game engine. Please see the changelog file for recent improvements and the issue tracker for short-term plans. Long-term goals are high replayability and auto-balancing through procedural content generation and persistent content modification based on player behaviour.\n\nAlso, making aliens bitterly regret the idea of plotting against Earth.",
+    "tags": ["scifi", "tactical", "squad"],
+    "links": {
+      "itch": "https://man-of-letters.itch.io/allureofthestars"
+    },
+    "versions": {
+      "0.9.5.0": {
+        "url": "https://man-of-letters.itch.io/allureofthestars",
+        "flags": ["itch"],
+        "file_id": "1412788",
+        "path": "AllureOfTheStars",
+        "exec": "Allure"
+      }
+    }
+  },
   "alphaman": {
     "name": "Alphaman",
     "dev": "Jeffrey R. Olson",
@@ -125,6 +143,27 @@
         "flags": ["dos"],
         "path": "",
         "exec": "ALPHAMAN"
+      }
+    }
+  },
+  "ananias": {
+    "name": "Ananias",
+    "dev": "Santiago Zapata",
+    "desc": "Explore five different worlds, fight their monstrous inhabitants and try to survive and find an ancient artifact to save the world from destruction.\n\nFor every game session, the game will create new environments full of challenges and surprises, populated with monsters and ancient magical artifacts.\n\nThere are eight different player classes, each one designed with a unique playing style. Some of them are combat-focused, others have access to magic spells in 4 different schools of magic while others must rely on their special martial skills to survive.\n\nAs you advance through the game, you will find over 40 different types of monsters with distinct skills and abilities, you will be able to charm them using magic spells and make them join your quest. By using some of the ancient magic found in the dungeon, you can unlock more advanced forms of their powers and skills.\n\nThe game keeps track of your adventures on its online server, sharing the in-game events with your friends in real time, mantaining a leaderboard of the most successful heroes as well as a graveyard of memorable characters which you can share in social media.\n\nAnanias is a classic turn-based “roguelike” adapted for modern media, it removes the cumbersome movement and complex commands while keeping all the features from the genre that make the games fun and enjoyable: turn-based combat, random level generation, and long term item strategy. These are among the things that make every adventure into the game unforgettable.",
+    "tags": ["tiles"],
+    "links": {
+      "home": "https://www.ananiasgame.com/",
+      "itch": "https://slash.itch.io/ananias",
+      "wiki": "http://wiki.ananiasgame.com/",
+      "twitter": "https://twitter.com/slashie_"
+    },
+    "versions": {
+      "2.4.4": {
+        "url": "https://slash.itch.io/ananias",
+        "flags": ["itch"],
+        "file_id": "372468",
+        "path": "",
+        "exec": "ananias-roguelike"
       }
     }
   },
@@ -219,6 +258,27 @@
       }
     }
   },
+  "axu": {
+    "name": "Axu",
+    "dev": "Cynapse",
+    "desc": "Axu is an open-world roguelike taking place on a distant prison colony planet. Inspired by the likes of Caves of Qud, Ancient Domains of Mystery, and IVAN.\n\nExplore the procedurally-generated world, mutate your body into grotesque forms, explore the depths and surface of the planet, find your way home, or embrace your exile. Each time you create a new game, the world will be created anew. Every playthrough will be different and challenging. Axu is in very early development, and is growing every day. Feedback is greatly appreciated!\n\nThe game is free during its development, but donations are welcome! Help me develop my passion project! :)\n\nAlso, don't forget to leave feedback in the forums below or in the Discord. I'm always open to suggestions.",
+    "tags": ["open-world", "survival", "exploration"],
+    "links": {
+      "itch": "https://cynapse077.itch.io/axu-rl",
+      "wiki": "https://axu.fandom.com/wiki/Axu_Wiki",
+      "discord": "https://discord.gg/WxtxDYZ",
+      "twitter": "https://twitter.com/CynApGames"
+    },
+    "versions": {
+      "0.7.6": {
+        "url": "https://cynapse077.itch.io/axu-rl",
+        "flags": ["itch"],
+        "file_id": "552897",
+        "path": "",
+        "exec": "Axu"
+      }
+    }
+  },
   "boohu": {
     "name": "Break Out Of Hareka's Underground (Boohu)",
     "dev": "anaseto",
@@ -252,6 +312,29 @@
 		  "1.7.5": {
 		    "url": "https://sites.google.com/site/broguegame/Brogue-windows-v1.7.5.zip",
 		    "path": "Brogue-windows-v1.7.5",
+		    "exec": "brogue"
+      }
+    }
+	},
+  "brogue-tiles": {
+    "name": "Brogue (Tiles)",
+    "dev": "Brian Walker, tiles by Oryx Design Lab",
+    "desc": "Brogue is a direct descendant of Rogue, unlike other popular modern roguelikes, and it favors simplicity over complexity, while trying to ensure that the interactions between components will be interesting and varied.\n\nTiles version by Oryx Design Lab.  Updated to v1.7.5 in November 2018.",
+    "tags": ["tiles"],
+    "links": {
+      "itch": "https://oryxdesignlab.itch.io/brogue",
+      "forum": "https://www.reddit.com/r/brogueforum/",
+      "wiki": "http://brogue.wikia.com/wiki/Brogue_Wiki",
+      "irc": "http://webchat.quakenet.org/?channels=brogue",
+      "changelog": "https://sites.google.com/site/broguegame/",
+      "oryx": "https://www.oryxdesignlab.com/"
+    },
+    "versions": {
+		  "1.7.5": {
+		    "url": "https://oryxdesignlab.itch.io/brogue",
+        "flags": ["itch"],
+        "file_id": "1164088",
+		    "path": "Brogue_Tiles_Win_v1.7.5",
 		    "exec": "brogue"
       }
     }
@@ -560,6 +643,27 @@
       }
     }
 	},
+  "doe": {
+    "name": "Dungeons of Everchange",
+    "dev": "Dark Gnosis",
+    "desc": "In Dungeons of Everchange you take a role of a lonely hero, who tries to descend into unknown depths of twisted mazes of Everchange to kill ultimate tyrant Belphegore. There is no written documentation or maps of survivors who dared to enter the mazes and escaped alive, at least no rumors match what you can found down there. Except one: mazes are always different, walls and corridors change, and utmost horrors of every size and shape lurk in dark, waiting for its next prey.",
+    "tags": [],
+    "links": {
+      "home": "http://www.darkgnosis.com/download/game/dungeons-of-everchange-rl/",
+      "itch": "https://darkgnostic.itch.io/dungeons-of-everchange-ascii",
+      "forum": "http://www.darkgnosis.com/forum/",
+      "blog": "http://www.darkgnosis.com/blog/",
+      "facebook": "http://www.facebook.com/DarkGnosis",
+      "twitter": "http://www.twitter.com/Dark_Gnosis"
+    },
+    "versions": {
+      "Alpha 9.7.5": {
+        "url": "http://www.darkgnosis.com/download/dungeons-of-everchange-rl/win/Alpha/9.7.5/",
+        "path": "DoERL_Alpha9.7.5",
+        "exec": "DoE_ASCII"
+      }
+    }
+  },
   "dcrawl": {
     "name": "Dungeon Crawl: Linley's original (DOS)",
     "dev": "Linley Henzell",
@@ -661,6 +765,23 @@
       }
     }
   },
+  "elephant": {
+    "name": "Elephant",
+    "dev": "eusebeia",
+    "desc": "A roguelike game where you play the role of an African elephant trying to survive in a harsh wilderness.\n\nDisclaimer: These are development builds that may be unstable, not well-balanced, have mechanics that don't work (or don't work well), and partially-implemented or unimplemented features that probably don't work as they are intended to. Running a new pre-alpha build on an existing game may crash or corrupt your save file. Play at your own risk. :-P\n\nBasic instructions\n\nBecause the game is still pre-alpha, it does not come with in-game help, so to get you started, here are some basic keyboard controls (mouse support is planned but currently completely unimplemented):\n\ni, j, k, l: Movement keys. I know, I know, why not vi keys, right? And why no diagonal movement? Well, I did warn that this is pre-alpha...\n\nd: Drink something. Either water you sucked into your trunk, or something on the ground.\n\ne: Eat something. Either something you're already holding, or something on the ground.\n\n,: Pick up something.\n\nt (+ direction key): Apply your tusks to something. Currently, peels tree bark or gores an NPC.\n\n(space): Pass your turn. Currently unimportant, but will become part of tactical movement.\n\n/: Enter examine mode. In this mode, movement keys do not move your character, but only the on-map cursor. Position your cursor over a tile you'd like to examine, and the 'you see' panel will show you what's currently on that tile. Press 'q' to leave examine mode and return to normal gameplay mode.\n\nq: Save current game and quit. The game will automatically continue the next time you start the program. Warning: always exit the game with 'q' if you want to keep your current character; if the game terminates for any other reason, you will permanently lose your character. Welcome to permadeath. :-D\n\nQ: Delete current game and quit. Warning: once deleted, it is impossible to get your character back.\n\nHOW TO WIN (spoiler!)\n\nBelieve it or not, even in its pre-alpha state it's possible to win this game. Basically, you're expected to show up within a certain radius of the terminal point where (supposedly) the rest of your herd is waiting. But the question is, how to get there. Here are some tips:\n\n+ Eat and drink as much as you can. It's a vast desert landscape, and you will die of hunger or thirst otherwise.\n\nIn the midst of the desert landscape there are little islands of fertile land. Try to move from island to island as you search for your destination, instead of striking out into no-man's land (or no-elephants' land!), so that you can always keep hydrated and your huge elephant tummy filled.\n\n(Spoiler) These islands basically form a linear path of 'stepping stones' to your final destination (note: for this version only!). What you want to do is to make little excursions from your current island in each direction to see if you can spot the next island. If not, return and fill up on food/water and try again in another direction. Otherwise, move on to the next island and repeat.\n\nNote that because this is pre-alpha, your herd members are pretty stupid, and will likely be dead from starvation or hunger, or killed by lions, by the time you reach them. This is usual, albeit not intentional, and will be fixed eventually!",
+    "tags": ["coffee", "weird", "pre-release"],
+    "links": {
+      "home": "http://eusebeia.dyndns.org/elephant/"
+    },
+    "versions": {
+      "2020-02-04": {
+        "url": "http://eusebeia.dyndns.org/elephant/elephant-2020-02-04a.exe",
+        "flags": ["exe"],
+        "path": "",
+        "exec": "elephant-2020-02-04a.exe"
+      }
+    }
+  },
   "elona": {
     "name": "Elona",
     "dev": "Noa",
@@ -676,6 +797,46 @@
         "url": "http://ylvania.style.coocan.jp/file/elona116rfix2b.zip",
         "path": "elona",
         "exec": "elona"
+      }
+    }
+  },
+  "efa": {
+    "name": "Escape from AEON",
+    "dev": "Ghostknot Games",
+    "desc": "Destined for humanity's next home, you must escape a titanic mothership — where an abhorrent lifeform has taken residence.\n\nA lo-fi science fiction survival horror roguelike: turn-based, permadeath, overwhelming odds, and a slim chance of survival\n\n25 procedurally generated levels across 5 zones\n\nTactical combat with 100-action-point system\n\nUnlock more than 40 enemies in the beastiary\n\nFind modules to upgrade your radar and skinsuit\n\nEnvironmental interaction: blast through walls to make a shortcut. Detonate a fission reactor. If all else fails, breach the ship's hull.\n\nLearn about the bizarre presence aboard the Aeon and experiment altering your genetic makeup ... for better or worse.\n\nUnravel a rich post-Earth narrative as you progress\n\nInspired by The Thing, Alien, Infra Arcana & Heart of Darkness.",
+    "tags": ["scifi", "horror", "space", "pre-release"],
+    "links": {
+      "itch": "https://ghostknot-games.itch.io/efa"
+    },
+    "versions": {
+      "Build 10": {
+        "url": "https://ghostknot-games.itch.io/efa",
+        "flags": ["itch"],
+        "file_id": "1952130",
+        "path": "",
+        "exec": "Escape from Aeon"
+      }
+    }
+  },
+  "fara": {
+    "name": "FARA",
+    "dev": "Brianiscreative",
+    "desc": "Wrestle honey badgers! Start forest fires! Ride grizzly bears as a beekeeper! FARA is a text-based roguelike that runs in your browser and has over 60 classes, a never-ending supply of dungeons, and countless secrets. The goal of the game is to collect enough Key Fragments to complete the Astral Key. Fragments can be found in many places - the depths of dangerous dungeons, the bottoms of lakes, or even in the pockets of unwitting strangers.  Most notable actions in the game add to a score, and when you die, your score is added to a persistent total that unlocks new options the next time you play. FARA is in the alpha stage, and is buggy as hell. Feedback and bug reports are desired and encouraged!\n\nHOW TO PLAY:\n\nUse the [ Arrow Keys ] to move, press [ Tab ] to cycle through targets, [ e ] to interact, [ a ] to attack, and [ t ] to take things. If command lines and shortcuts aren't really your thing, you can also click/tap around the interface to perform most actions. There's way more to FARA, but that should be enough to get you killed started.",
+    "tags": ["itch"],
+    "links": {
+      "itch": "https://brianiscreative.itch.io/fara",
+      "discord": "https://discord.gg/FEp52yj",
+      "reddit": "https://www.reddit.com/r/fara/",
+      "twitter": "https://twitter.com/PlayFARA",
+      "patreon": "https://www.patreon.com/playfara"
+    },
+    "versions": {
+      "2019.05.21": {
+        "url": "https://brianiscreative.itch.io/fara",
+        "flags": ["itch"],
+        "file_id": "1447195",
+        "path": "FARA-win32-x64",
+        "exec": "FARA"
       }
     }
   },
@@ -825,6 +986,24 @@
         "url": "https://osdn.net/frs/redir.php?m=pumath&f=hengband%2F69565%2Fhengband-2.2.1r-win.zip",
         "path": "hengband-2.2.1r",
         "exec": "Hengband"
+      }
+    }
+  },
+  "heroicage": {
+    "name": "Heroic Age: the Roguelike",
+    "dev": "Eldar Bogdanov",
+    "desc": "This story takes us to the times before the Trojan war, when Ancient Greece was full of brave heroes and fearsome monsters, and the gods looked upon everyone from Mount Olympus and took active participation in the matters of men.\n\nAway from all these adventures, in the quiet city of Eleusis, you and your beloved wife lived peacefully, perfectly happy just to have each other. But one day she got sick, and her strength left her, and she became chained to the bed. No potion, no prayer, no healer in the city has been able to help her.\n\nAs your wife grows weaker by the day, you embark on a quest to find the cure.\n\nIf you're more into mechanics than storyline:\n\n- Explore the maps generated based on real-life regions of Greece\n\n- Choose your equipment from a vast array of weapons and items, balancing damage, precision and energy consumption\n\n- Ride beasts to conserve your energy and increase evasion\n\n- Use magic to either attack enemies, protect yourself, or even sow discord between opponents\n\n- Employ charisma to lead small teams into battle",
+    "tags": ["open-world"],
+    "links": {
+      "itch": "https://ostr.itch.io/heroic-age-the-roguelike"
+    },
+    "versions": {
+      "0.6.0": {
+        "url": "https://ostr.itch.io/heroic-age-the-roguelike",
+        "flags": ["itch"],
+        "file_id": "1953606",
+        "path": "",
+        "exec": "Heroic Age the Roguelike (windows 64-bit)"
       }
     }
   },
@@ -1137,6 +1316,42 @@
       }
     }
   },
+  "otroadside": {
+    "name": "On the Roadside",
+    "dev": "rmcode",
+    "desc": "On the Roadside is a turn-based strategy game in which you take control of a squad of mercenaries fighting for survival in a world shaped by unknown forces. It currently is on hold. If you want to contribute, you can find the source code on github.\n\nKEY FEATURES:\n\n+ Turn-Based Combat: Combat in On The Roadside is taken in turns.\n\n+ Deep Combat Mechanics: Accuracy is simulated for each projectile and doesn't rely on simple 'chance-to-hit calculations'. Projectiles can penetrate and perforate objects based on their energy levels.\n\n+ Destructible Maps: Currently the map features destructible objects like windows, fences, and doors. Over time more tiles and objects will be implemented.\n\n+ ASCII-Graphics: Abstract representation through ASCII tiles combined with smooth animations and particles.\n\n\nPLEASE NOTE\n\nThis game is still in early stages of development by a one-man team (@rm-code). I'm developing this game on my own in my free time and while I'm determined to make it as good and complete as possible there is no guarantee that it will ever be completed. That's why currently I am using the 'pay what you want option' - If you decide that my work is worth your hard earned cash, you are a lovely person and I like you <3",
+    "tags": ["pre-release", "squad", "tactical", "modern"],
+    "links": {
+      "itch": "https://rmcode.itch.io/on-the-roadside",
+      "github": "https://github.com/rm-code/On-The-Roadside"
+    },
+    "versions": {
+      "0.17.0.1766": {
+        "url": "https://github.com/rm-code/On-The-Roadside/releases/download/0.17.0.1766/OTR_0170-1766-WIN.zip",
+        "path": "LOVE_WIN",
+        "exec": "OTR_0170-1766"
+      }
+    }
+  },
+  "polybot": {
+    "name": "POLYBOT-7",
+    "dev": "Josh 'Kyzrati' Ge (@GridSageGames), tiles by Kacper Woźniak (@ThKasparrr)",
+    "desc": "You are POLYBOT-7, the latest in a line of fully-modular robot designs being put through The Gauntlet.\n\nTactical positioning is crucial since you're not only under fire from other robots, you also automatically attract and attach nearby components until your slots are full--everything from various power sources and propulsion units to numerous types of utilities and weapons.\n\nYour parts will be destroyed, but you can blast other robots to pieces and let the salvage fly over to equip you, or find caches of even better parts to really show them what you're made of!\n\nIf you're good enough, on your way through The Gauntlet take on additional challenges to acquire upgrades that expand your number of available slots until you finally have space for up to a couple dozen different components at once.\n\nHELP\n\nIn-game tutorial messages and context help will teach the basics, but key to survival is the Purge mechanic. Sometimes you may want to drop your parts, but you can only do this by 'purging' them, which destroys half of what you have while scattering the rest across the ground. Then you're free to rebuild by moving towards (hopefully) the remaining or other nearby parts that you want to attract. The Purge mechanic requires 100 turns to charge before it can be used again, however, so be careful in choosing when to carry it out.\n\nPOLYBOT-7 is available with both a tileset and in glorious ASCII form, which you can toggle at the press of a button (F3!). It also supports movement via mouse, numpad, arrows, and vi-keys out of the box, along with a ton of other customization options.\n\nSee the manual included with the game for more info! (includes a list of mechanics and tips)\n\nHistory\n\nPOLYBOT-7 was developed as a project for the 2018 7DRL challenge, based on the source of a much bigger project. For more information and development details , see the release announcement on the dev blog, as well as the in-depth four-part postmortem.\n\nIf you enjoy POLYBOT-7's style but want more, check out my magnum opus that I've been working on full-time for over five years now: Cogmind (also on Steam). It features a much bigger world to explore, and far more polish and content. (You also have a lot more control over your build; while similar in style and theme, POLYBOT-7 is a rather different experience.)",
+    "tags": ["7drl", "scifi", "tiles", "coffee"],
+    "links": {
+      "itch": "https://kyzrati.itch.io/polybot-7",
+      "postmortem": "http://www.gridsagegames.com/blog/2018/03/7drl-postmortem-part-1-preparation/"
+    },
+    "versions": {
+      "1": {
+        "url": "https://kyzrati.itch.io/polybot-7",
+        "flags": ["itch"],
+        "file_id": "1107288",
+        "path": "POLYBOT-7 (7DRL v1)",
+        "exec": "POLYBOT-7"
+      }
+    }
+  },
   "poscheng": {
     "name": "PosChengband",
     "dev": "Chris Kousky",
@@ -1155,6 +1370,25 @@
         "url": "https://sites.google.com/site/poschengband/file-cabinet/poschengband-7.1.1.zip",
         "path": "",
         "exec": "poschengband"
+      }
+    }
+  },
+  "possession": {
+    "name": "Possession: Escape from the Nether Regions",
+    "dev": "Weirdfellows",
+    "desc": "Play as a ghost escaped from the Nether Regions, trying to make your way to the surface. You are incredibly frail, but have one advantage: you can possess the bodies of the monsters you encounter. Created for the 2013 7-Day Roguelike Challenge.\n\nFETURES:\n\n+ 5 levels, each with unique possessable monsters\n+ A wide variety of creature powers\n+ Exploding bodies!\n+ Item-less gameplay\n+ A monsterpedia, which tracks the details of the monsters you possess\n+ Quick to pick up and play\n+ Humorous descriptions\nASCII or graphical modes, seperate for both creatures and the environment.\n\nA sequel, simply called Possession, is currently in production.",
+    "tags": ["7drl", "coffee", "tiles"],
+    "links": {
+      "itch": "https://weirdfellows.itch.io/possession-escape-from-the-nether-regions",
+      "sequel": "http://possessiongame.com/"
+    },
+    "versions": {
+      "1.2": {
+        "url": "https://weirdfellows.itch.io/possession-escape-from-the-nether-regions",
+        "flags": ["itch"],
+        "file_id": "22044",
+        "path": "",
+        "exec": "Possession"
       }
     }
   },
@@ -1190,6 +1424,31 @@
         "url": "http://flend.net/files/princessrl-v104.zip",
         "path": "princessrl",
         "exec": "PrincessRL"
+      }
+    }
+  },
+  "robinson": {
+    "name": "Robinson",
+    "dev": "aaron-ds",
+    "desc": "Robinson is a survival roguelike.\n\nExplore a procedurally generated island\nFight off aggressive creatures\nHarvest raw materials\nCraft weapons and tools\nChoose unique abilities and build your character\n\nManage hunger, thirst, and morale\n\nBut most of all, escape",
+    "tags": ["exploration", "open-world"],
+    "links": {
+      "itch": "https://aaron-ds.itch.io/robinson"
+    },
+    "versions": {
+      "0.4.0-beta1": {
+        "url": "https://aaron-ds.itch.io/robinson",
+        "flags": ["itch"],
+        "file_id": "1904917",
+        "path": "robinson-windows-x64-2020.01.19-10.19.54-c8d6bf2",
+        "exec": "robinson"
+      },
+      "0.3.0": {
+        "url": "https://aaron-ds.itch.io/robinson",
+        "flags": ["itch"],
+        "file_id": "1234094",
+        "path": "robinson-windows-x64-2019.01.19-09.23.13-ad75455",
+        "exec": "robinson"
       }
     }
   },
@@ -1261,6 +1520,25 @@
         "url": "https://www.dropbox.com/s/z4jaa2peji0k5pu/Roguelegends%20Dark%20Realms%20%28RLDR%29%20version%200.2.0%20Dev%20Build.zip?dl=1",
         "path": "Roguelegends Dark Realms (RLDR) version 0.2.0 Dev Build\\Roguelegends Dark Realms (RLDR)",
         "exec": "RLDR"
+      }
+    }
+  },
+  "settlersdeep": {
+    "name": "Settlers of the Deep",
+    "dev": "giann",
+    "desc": "Settlers of the  Deep is a Settlers/Rogue-like.\n\nYou start with a little settlement and must expand and conquer territory.  The world in which you spawn is never the same. In order to survive you will have to defend yourself from the hostile wildlife and from other unfriendly civilizations.\n\nAs you expand, you will have to be creative to manage all the aspect of your little industry.\n\nIf you want to report bugs/crashes or simply want to share your feedback, please visit the Issues link.",
+    "tags": ["builder", "survival"],
+    "links": {
+      "itch": "https://giann.itch.io/settlers-of-the-deep",
+      "issues": "https://github.com/giann/settlers-issues/issues"
+    },
+    "versions": {
+      "0.0.4a": {
+        "url": "https://giann.itch.io/settlers-of-the-deep",
+        "flags": ["itch"],
+        "file_id": "1161393",
+        "path": "Settlers of the Deep-win64",
+        "exec": "settlers"
       }
     }
   },
@@ -1359,21 +1637,23 @@
       }
     }
   },
-  "smith": {
-    "name": "The Smith's Hand",
-    "dev": "Jeff Lait",
-    "desc": "An earthquake has opened a mysterious cave in the mountains north of your village. Fortunately, this time all the villagers properly followed the elder's advice. Rather than risk life and limb searching it for the vicious orcs that may lie within, we all wisely left this task to professional adventurers.\n\nAs the village smith, it is your task to make sure these adventurers have the equipment they need to defeat whatever evil lies within the cave.\n\nAnd no one will think it amiss if the village should grow richer in the process...",
-    "tags": ["7drl", "coffee"],
+  "spectrl": {
+    "name": "SpectRL",
+    "dev": "Zoltan Kosina",
+    "desc": "SpectRL: Arakhon's Ascension is a web-based retro fantasy roguelike turn-based RPG about a dragonspawn who wants to ascend to the highest plane of existence. The game is set in the multidimensional world of Spect, featuring procedurally-generated 6-dimensional dungeons.\n\nAs Arakhon, the despised ciblityian dragonspawn, your goal is to reach Aligibaia, the highest plane of Spect. In addition to width, height, and depth, the world of Spect also has the dimensions of the color spectrum, the substantial structure, and the substantial surface. Therefore everything and everyone has a number of different versions in this world. Every version of them has a different structure, surface, and color, but deep inside, they are still the same. So keep in mind, animate or inanimate, some of them will help you, some of them will hurt you, based on which plane they are on.",
+    "tags": ["weird", "web"],
     "links": {
-      "home": "http://www.zincland.com/7drl/smith/"
+      "itch": "https://kosinaz.itch.io/spectrl"
     },
     "versions": {
-      "0.1": {
-        "url": "http://www.zincland.com/7drl/smith/smith7drl.zip",
-        "path": "smith7drl\\windows",
-        "exec": "smith"
+      "0.1.1": {
+        "url": "https://kosinaz.itch.io/spectrl",
+        "flags": ["web"],
+        "path": "",
+        "exec": ""
       }
-    }
+    },
+    "disabled": true
   },
   "spelunky": {
     "name": "Spelunky",
@@ -1413,6 +1693,45 @@
       }
     }
   },
+  "steamsky": {
+    "name": "Steam Sky",
+    "dev": "Thindil",
+    "desc": "Steam Sky is an open source roguelike with a steampunk setting. You are a commander of a flying ship, as leader you will be traveling across floating bases, engaging in combat, trading goods etc. The game is more strategy based than tactical like most of roguelikes. There is no mandatory ending to this game, you may freely play until your character die. The game is currently in a development, but is in a playable state.\n\nFeatures:\n\n+ Buy cheaply, sell expensive: find best trade routes between sky bases.\n\n+ Do randomly generated missions to gain money and reputation at sky bases.\n+ Manage your ship's crew: give them orders, hire new ones or dismiss old members.\n\n+ Manage your ship: upgrade installed modules, install new ones, or repair damaged ones.\n\n+ Craft items: from tools through repair materials to food.\n\nFight with enemy ships in tactical combat.",
+    "tags": ["steampunk"],
+    "links": {
+      "home": "https://thindil.itch.io/steam-sky",
+      "discord": "https://discord.gg/r5R8Mnx",
+      "matrix": "https://riot.im/app/#/room/#steamsky:matrix.org",
+      "github": "https://github.com/thindil/steamsky"
+    },
+    "versions": {
+      "4.0.11": {
+        "url": "https://github.com/thindil/steamsky/releases/download/v4.0.11/steamsky-4.0.11-64-bit.exe",
+        "flags": ["inno"],
+        "path": "app\\bin",
+        "exec": "steamsky"
+      }
+    }
+  },
+  "summonerrl": {
+    "name": "SummonerRL",
+    "dev": "Nymlus",
+    "desc": "As a Summoner, it's your sacred duty to uproot the spreading corruption from the depths of the dungeon and release its grasp on the natural world. Your only companions on this journey will be the animals conjured by your own power. Find a ritual focus and use it to bring a benevolent familiar to your side. Together you must overcome the twisted beings that stand in your way.\n\n+ Using certain items, you can summon up to two AI-controlled companions to help you in battle.\n\n+ With the 'F'amiliar command, you can give tactical commands to your summoned allies. By training your familiars well, you can increase the speed of communicating these commands.\n\n+ If you combine the 'F'amiliar and 'L'ook commands you can give contextual commands for allies to attack specific monsters or use an object on a particular space.\n\n+ Progress through many stratums of the dungeon and discover unique areas such as the gnoll village.\n\n+ Start a campfire in the dungeon after clearing all monsters on the floor. At the campsite, you can interact with your companions to improve their strength in various ways.\n\n+ Your familiars are living creatures who express their state of mind through their actions. Pay close attention to them and work as a team to achieve victory.\n\nCheck controls.txt for instructions on how to play the game. You can also access this information while in game by pressing H, or customize the controls in the Settings menu.",
+    "tags": ["summon"],
+    "links": {
+      "itch": "https://nymlus.itch.io/summoner",
+      "discord": "https://discord.gg/f3eNDDB"
+    },
+    "versions": {
+      "2.1.0": {
+        "url": "https://nymlus.itch.io/summoner",
+        "flags": ["itch"],
+        "file_id": "1667934",
+        "path": "SummonerRL",
+        "exec": "summoner"
+      }
+    }
+  },
   "sunkcoast": {
     "name": "Sunk Coast",
     "dev": "Jonathan Whiting",
@@ -1443,6 +1762,60 @@
         "flags": ["dos"],
         "path": "",
         "exec": "TELEN"
+      }
+    }
+  },
+  "tenebrae": {
+    "name": "Tenebrae et Mors",
+    "dev": "gym",
+    "desc": "A roguelike in the spirit of Nethack, explore the dungeon underneath an Italian villa in the 15th century. The condottiero Perin Nazana has gone mad, locking himself in his massive dungeon containing vast treasure and deadly foes.\n\nBuild your character and adventure through over 30 levels.\n\nWHO ARE YOU?\n\nLive your character's life before your journey into the dungeon. Choose a background and stat, then live your character's life 5 years at a time. Follow the path of a peasant turned soldier, or choose a life of contemplation and prayer. Be a craftsman, an alchemist, a knight, an inquisitor. Your choices decide your skills, and your skills protect you through the dungeon!\n\nWHAT DO YOU DO?\n\nChoose your approach. Kill any in your way, or charm your way through the dungeon. Craft deadly potions as an alchemist, convert hostile foes as a priest, or bribe those foes as a merchant. Gather a group of protectors or finish it solo. Use magic, might, charm, or money to reach Perin!\n\nWHAT'S TO COME?\n\nMore monsters, more loot, more magic! In short, more content and challenges to overcome.\n\nThe current version of the game is an 'alpha' version: beatable, nearly feature complete, somewhat untested. This is currently a Windows only game, though macOS and Linux are certainly possible in the future.",
+    "tags": ["tiles", "horror", "medieval"],
+    "links": {
+      "itch": "https://gym.itch.io/tenebrae-et-mors"
+    },
+    "versions": {
+      "0.3.2": {
+        "url": "https://gym.itch.io/tenebrae-et-mors",
+        "flags": ["itch"],
+        "file_id": "1757719",
+        "path": "",
+        "exec": "TeM"
+      }
+    }
+  },
+  "smith": {
+    "name": "The Smith's Hand",
+    "dev": "Jeff Lait",
+    "desc": "An earthquake has opened a mysterious cave in the mountains north of your village. Fortunately, this time all the villagers properly followed the elder's advice. Rather than risk life and limb searching it for the vicious orcs that may lie within, we all wisely left this task to professional adventurers.\n\nAs the village smith, it is your task to make sure these adventurers have the equipment they need to defeat whatever evil lies within the cave.\n\nAnd no one will think it amiss if the village should grow richer in the process...",
+    "tags": ["7drl", "coffee"],
+    "links": {
+      "home": "http://www.zincland.com/7drl/smith/"
+    },
+    "versions": {
+      "0.1": {
+        "url": "http://www.zincland.com/7drl/smith/smith7drl.zip",
+        "path": "smith7drl\\windows",
+        "exec": "smith"
+      }
+    }
+  },
+  "ttd": {
+    "name": "Time to Die",
+    "dev": "Darren Grey",
+    "desc": "Temporal anomalies are running amok with all creation! We need an experienced Time Cop to sort this mess out. Go through the major epochs of time, eliminate the nefarious anomalies, and destroy the Apocalypse before it's too late! Or else we'll have to rewind and start this all over again...\n\nTime To Die is a turn-based roguelike about time. You battle monsters on a hexagonal grid, making use of various weapons and the ability to pause and rewind time at will. It's a tightly tactical experience which rewards clever thinking.\n\nKEY FEATURES:\n\n+  7 themed and procedurally generated zones, each with their own enemies and bosses\n\n+  Beautiful hand-drawn pixel art by Samuel Wilson (artist for DCSS and Caves of Qud)\n\n+  Tactical combat that requires consideration of movement, positioning, direction of attack and simultaneity. Some enemies need to be hit from multiple angles at the same time to be defeated.\n\n+  Manipulate time in a turn-based environment, requiring inventive control to fully exploit.\n\n\nTime To Die was created for the Seven Day Roguelike Challenge 2018.",
+    "tags": ["tiles", "7drl", "time", "coffee"],
+    "links": {
+      "itch": "https://darrengrey.itch.io/time-to-die",
+      "dev": "http://gamesofgrey.com/",
+      "twitter": "https://twitter.com/dgrey0"
+    },
+    "versions": {
+      "1.0.2": {
+        "url": "https://darrengrey.itch.io/time-to-die",
+        "flags": ["itch"],
+        "file_id": "812941",
+        "path": "timetodie-win",
+        "exec": "Time To Die"
       }
     }
   },
@@ -1521,6 +1894,47 @@
         "url": "https://github.com/AmyBSOD/ToME-SX/archive/master.zip",
         "path": "ToME-SX-master",
         "exec": "tome"
+      }
+    }
+  },
+  "temporus": {
+    "name": "Temporus: Rogue",
+    "dev": "Firebelly Studios",
+    "desc": "Explore space and search ancient ruins. Find artifacts and collect the data before being overrun by the local inhabitants.\n\nABOUT\n\nTemporus Rogue is a rogue like sci-fi adventure. It was originally created as a test of some code but was reused for the #7DRL game jam. All new art was created along with new audio. Most of the internal code was gutted except for some basic movement.",
+    "tags": ["7drl", "scifi", "space", "coffee"],
+    "links": {
+      "itch": "https://firebelly-studios.itch.io/temporus-rogue",
+      "howto": "https://firebelly-studios.itch.io/temporus-rogue"
+    },
+    "versions": {
+      "1.2": {
+        "url": "https://firebelly-studios.itch.io/temporus-rogue",
+        "flags": ["itch"],
+        "file_id": "798530",
+        "path": "",
+        "exec": "Default Windows desktop 32-bit"
+      }
+    }
+  },
+  "tenrings": {
+    "name": "Ten Rings",
+    "dev": "Devin Martin (PinePitchGames)",
+    "desc": "In Ten Rings you play an adventure descending though the depths of a haunted church on a quest to return with the Ring of Nived! With nothing but a hand full of Rings!",
+    "tags": [],
+    "links": {
+      "itch": "https://pinepitchgames.itch.io/ten-rings",
+      "discord": "https://discord.gg/bVupWV9",
+      "twitter": "https://twitter.com/pitch_games",
+      "facebook": "https://www.facebook.com/PinePitchGames",
+      "patreon": "https://www.patreon.com/pinepitchgames"
+    },
+    "versions": {
+      "0.10.0": {
+        "url": "https://pinepitchgames.itch.io/ten-rings",
+        "flags": ["itch"],
+        "file_id": "1951895",
+        "path": "ten_rings 0.10.0",
+        "exec": "TenRings"
       }
     }
   },
@@ -1656,6 +2070,25 @@
       }
     }
   },
+  "madmountain": {
+    "name": "Under the Mad Mountain",
+    "dev": "Lemunde",
+    "desc": "After spending several days traveling across treacherous seas, you have finally arrived on a mysterious island off the coast of Iceland. None among you truly know why the jarl has sent you here, only that you are to seek an idol of some vague description. But there have been whispers of the jarl's failing health, of strange people visiting him in the night, and of the horrific cries when he wakes from some unfathomable nightmare.\n\nHaving discovered a cave at the foot of an ominous mountain at the center of the island, you venture forth, armed only with a sword and a shield, knowing not what awaits you deep under the mad mountain.",
+    "tags": ["horror"],
+    "links": {
+      "itch": "https://lemunde.itch.io/under-the-mad-mountain"
+    },
+    "versions": {
+      "4.0.0": {
+        "url": "https://lemunde.itch.io/under-the-mad-mountain",
+        "flags": ["itch"],
+        "file_id": "1943585",
+        "path": "",
+        "exec": ""
+      }
+    },
+    "disabled": true
+  },
   "unnethack": {
     "name": "UnNetHack",
     "dev": "Comunity",
@@ -1780,6 +2213,11 @@
       "donations": "https://www.zorbus.net/"
     },
     "versions": {
+      "28": {
+        "url": "https://www.zorbus.net/Zorbus.zip",
+        "path": "Zorbus",
+        "exec": "Zorbus"
+      },
       "27": {
         "url": "https://www.zorbus.net/Zorbus.zip",
         "path": "Zorbus",

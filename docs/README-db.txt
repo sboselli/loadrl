@@ -104,7 +104,9 @@ Currently, the following flags are defined:
 * "copy_files": When this flag is found, loadRL will use the
                 contents of the "copy_files" property within the
                 version, to copy the source file to the dest dir.
-
+* "inno": Tells loadRL this is a self-installing exe from Inno
+* "itch": Tells loadRL the url is from Ithc.io, which requires 
+          special download treatment.
 
 ### Adding/modifying games and versions
 

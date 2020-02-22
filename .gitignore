@@ -14,9 +14,9 @@ data_*/
 
 # loadRL stuff
 games/
-tools/
 build-scripts/*.zip
 todo.md
+jar.txt
 
 # DOSBox Standard output
 stderr.txt

@@ -2,17 +2,25 @@
 
 [ext_resource path="res://scripts/container_status_bar.gd" type="Script" id=1]
 
-
 [node name="container_status_bar" type="Control"]
 margin_right = 940.0
 margin_bottom = 30.0
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 10.0 ],
+"_edit_vertical_guides_": [ 940.0 ]
+}
 
 [node name="status_bar" type="Label" parent="."]
 margin_top = 10.0
 margin_right = 270.0
 margin_bottom = 24.0
 text = "Status bar"
-__meta__ = {
-"_edit_lock_": true
-}
+
+[node name="motd" type="LinkButton" parent="."]
+margin_left = 570.0
+margin_top = 10.0
+margin_right = 920.0
+margin_bottom = 30.0
+underline = 2
+[connection signal="pressed" from="motd" to="." method="_on_motd_pressed"]

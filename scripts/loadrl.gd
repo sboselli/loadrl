@@ -33,6 +33,8 @@ var config = {}
 const VERSION_FILE = "res://version.txt"
 var version = ""
 
+const VERSION_URL = "https://github.com/sboselli/loadrl/raw/master/version.txt"
+
 # Signals
 signal config_loaded
 signal db_loaded
@@ -75,21 +77,22 @@ const HOME_FILE = "res://home.txt"
 func _ready():
 	# Check dir & load files
 	check_make_games_dir()
-	load_config_from_file()
+	get_config_from_file()
 	
-	# Version
-	version = load_text_from_file(VERSION_FILE)
+	# Version & version check
+	version = get_text_from_file(VERSION_FILE)
+	check_latest_version()
 	
 	# Title
 	$main/container_header/btn_loadrl.text = "> loadRL @ v." + version
 	
 	# Home screen
 	$main/home.set("custom_colors/default_color", COLOR_PARAGRAPH)
-	$main/home.text = "> loadRL @ v." + version + "\n" + load_text_from_file(HOME_FILE)
+	$main/home.text = "> loadRL @ v." + version + "\n" + get_text_from_file(HOME_FILE)
 	
 	# Init db & update state
-	load_db_from_file()
-	if config.use_online_db and get_db_from_url():
+	get_db_from_file()
+	if config.use_online_db and get_db_from_url(DB_URL):
 		db = db_online
 		print("Using Online DB.")
 	else:
@@ -107,6 +110,13 @@ func _ready():
 
 
 ### Data & State
+
+func check_latest_version():
+	var latest_version = get_text_from_url(VERSION_URL)
+	if latest_version > float(version):
+		$main/container_status_bar._update_motd("New loadRL version " + str(latest_version) + " available! Get it now!")
+
+
 # Games dir
 func check_make_games_dir():
 	var base_dir = ""
@@ -118,8 +128,8 @@ func check_make_games_dir():
 		OS.execute( "cmd", ["/C mkdir " + GAMES_DIR], true)
 
 
-# Load text from file (non json)
-func load_text_from_file(file):
+# Get text from file (non json)
+func get_text_from_file(file):
 	# Open file 
 	var data_file = File.new()
 	if data_file.open(file, File.READ) != OK:
@@ -131,8 +141,20 @@ func load_text_from_file(file):
 	return text
 
 
+# Get text from url (non json)
+func get_text_from_url(url):
+	var output = []
+	OS.execute("tools\\curl", ["-k", "-L", url], true, output)
+	var data = JSON.parse(output[0])
+	if data.error != OK:
+		print("Error parsing online DB file.")
+		return false
+	
+	return data.result
+
+
 # Config
-func load_config_from_file():
+func get_config_from_file():
 	# Open file 
 	var data_file = File.new()
 	if data_file.open(CONFIG_FILE, File.READ) != OK:
@@ -173,9 +195,9 @@ func save_config():
 
 
 # DB
-func get_db_from_url():
+func get_db_from_url(url):
 	var output = []
-	OS.execute("tools\\curl", ["-k", "-L", DB_URL], true, output)
+	OS.execute("tools\\curl", ["-k", "-L", url], true, output)
 	var data = JSON.parse(output[0])
 	if data.error != OK:
 		print("Error parsing online DB file.")
@@ -190,7 +212,7 @@ func get_db_from_url():
 	return true
 
 
-func load_db_from_file():
+func get_db_from_file():
 	# Open file 
 	var data_file = File.new()
 	if data_file.open(DB_FILE, File.READ) != OK:
@@ -227,8 +249,11 @@ func update_state():
 		### Update install status
 		# Get list of installed versions
 		var installed_versions = []
-		if Directory.new().dir_exists(game_base_path(slug)):
-			for version in db[slug].versions:
+		for version in db[slug].versions:
+			if db[slug].versions[version].has("flags") and db[slug].versions[version].flags.has("web"):
+				installed_versions.append(version)
+				state.total_versions_installed += 1
+			if Directory.new().dir_exists(game_base_path(slug)):
 				if Directory.new().dir_exists(game_base_path(slug) + "\\" + slug + "-" + version):
 					installed_versions.append(version)
 					state.total_versions_installed += 1
@@ -343,7 +368,32 @@ func _on_timer_dl_timeout():
 	run_curl(self.downloading)
 
 func run_curl(slug):
-	OS.execute("tools\\curl", ["-k", "-L", db[slug].versions[selected_ver].url, "-o" + dl_fname(slug)], true)
+	
+	# Check flags or do normal download
+	if db[slug].versions[selected_ver].has("flags") and db[slug].versions[selected_ver].flags.has("itch"):
+		### Itch dl
+		# Get cookie first
+		OS.execute("tools\\curl", ["-k", "-c", "jar.txt", db[slug].versions[selected_ver].url], true)
+		
+		# Use cookie to get a valid dl link for the 'file_id'
+		# 'file_id' can be obtained by inspecting the final Download button
+		var json_res = []
+		OS.execute("tools\\curl", ["-k", "-b", "jar.txt", "-X", "POST", db[slug].versions[selected_ver].url + "/file/" + db[slug].versions[selected_ver].file_id + "?"], true, json_res)
+		
+		# Parse JSON response & get download link
+		var data = JSON.parse(json_res[0])
+		if data.error != OK:
+			print("Error getting Itch download link.")
+			return
+		
+		# Finally download
+		OS.execute("tools\\curl", ["-k", "-L", data.result.url, "-o" + dl_fname(slug)], true)
+		
+	else:
+		### Normal download
+		OS.execute("tools\\curl", ["-k", "-L", db[slug].versions[selected_ver].url, "-o" + dl_fname(slug)], true)
+	
+	# We can now extract the downloaded file
 	extract(slug)
 
 
@@ -381,6 +431,11 @@ func extract(slug):
 		if db[slug].versions[selected_ver].flags.has("copy_files"):
 			var files_data = db[slug].versions[selected_ver].get("copy_files")
 			OS.execute( "cmd", ["/C robocopy " + game_version_path(slug) + "\\" + files_data[0] + " " + game_version_path(slug) + "\\" + files_data[1] + " /e"], true)
+		if db[slug].versions[selected_ver].flags.has("inno"):
+			# Create game_version_path
+			OS.execute( "cmd", ["/C mkdir " + game_version_path(slug)], true)
+			# run innoextract from within destination folder
+			OS.execute( "cmd", ["/C cd " + game_version_path(slug) + " && ..\\..\\..\\tools\\innoextract.exe ..\\..\\..\\" + dl_fname(slug)], true)
 	
 	# Delete dowloaded file
 	OS.execute("cmd", ["/C del " + dl_fname(slug)], true)
@@ -394,6 +449,8 @@ func extract(slug):
 func run(slug):
 	if db[slug].versions[selected_ver].has("flags") and db[slug].versions[selected_ver].flags.has("dos"):
 		OS.execute("tools\\DOSBox\\DOSBox.exe", [game_run_path(slug) + "\\" + db[slug].versions[selected_ver].exec + ".exe", "-noconsole"], false)
+	elif db[slug].versions[selected_ver].has("flags") and db[slug].versions[selected_ver].flags.has("web"):
+		OS.shell_open(db[slug].versions[selected_ver].url)
 	else:
 		OS.execute("cmd", ["/C cd " + game_run_path(slug) + " && " + db[slug].versions[selected_ver].exec], false)
 	emit_signal("game_run")
@@ -407,9 +464,9 @@ func _input(ev):
 			get_tree().quit()
 	
 	# TESTING
-	if ev is InputEventKey:
-		if ev.is_action_pressed("test"):
-			print("is_f55: ", is_f5())
+#	if ev is InputEventKey:
+#		if ev.is_action_pressed("test"):
+#			print("Test")
 	
 	# Do nothing if waiting
 	if waiting:
@@ -488,8 +545,14 @@ func _disable_window_drag():
 	window_drag = false
 
 
-# Install status
+# Various checks
+func is_web(slug, ver):
+	return db[slug].versions[ver].has("flags") and db[slug].versions[ver].flags.has("web")
+	
 func is_installed(slug, ver):
+	if is_web(slug, ver):
+		return true
+		
 	return ver in state[slug].installed
 
 func is_any_installed(slug):
