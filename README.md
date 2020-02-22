@@ -1,8 +1,8 @@
-# loadRL @ v0.1.1
+# loadRL @ v0.2
 
 A free (free) roguelike loader.
 
-![loadRL @ v0.1.1](https://raw.githubusercontent.com/sboselli/loadrl/master/img/screenshot-01-gh.png)
+![loadRL @ v0.2](https://raw.githubusercontent.com/sboselli/loadrl/master/img/screenshot-01-gh.png)
 
 ---
 
@@ -44,7 +44,7 @@ those clearly awful changes /s :) ).
 
 ### Download
 
-Download [loadRL @ v0.1.1](https://github.com/sboselli/loadrl/releases/download/0.1.1/loadrl-0.1.1.zip) or view [github releases](https://github.com/sboselli/loadrl/releases)
+Download [loadRL @ v0.2](https://github.com/sboselli/loadrl/releases/download/0.2/loadrl-0.2.zip) or view [github releases](https://github.com/sboselli/loadrl/releases)
 
 
 ### Installation
