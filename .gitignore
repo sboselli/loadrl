@@ -16,6 +16,7 @@ data_*/
 games/
 build-scripts/*.zip
 todo.md
+jar.txt
 
 # DOSBox Standard output
 stderr.txt
