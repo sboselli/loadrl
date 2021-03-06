@@ -2028,10 +2028,10 @@
       "donations": "http://www.ultimaratioregum.co.uk/game/support/"
     },
     "versions": {
-      "0.70b": {
-        "url": "https://www.markrjohnsongames.com/wp-content/uploads/2018/07/URR070b.zip",
+      "0.82b": {
+        "url": "https://www.markrjohnsongames.com/wp-content/uploads/2021/03/URR082b.zip",
         "path": "",
-        "exec": "\"Ultima Ratio Regum v070b\""
+        "exec": "\"Ultima Ratio Regum v082b\""
       }
     }
   },
