@@ -112,19 +112,32 @@
   },
   "allure": {
     "name": "Allure of the Stars",
-    "dev": "Man of Letters",
-    "desc": "Allure of the Stars is a near-future Sci-Fi roguelike and tactical squad game in full 16-color 7-bit ASCII. (Linux and Windows binaries and source code are available. The browser version runs fastest on Chrome. Keyboard commands and savefiles are supported only on recent enough versions of browsers. Mouse should work everywhere.)\n\nNot a single picture in this game. You have to imagine everything yourself, like with a book (a grown-up book, without pictures). Once you learn to imagine things, though, you can keep exploring and mastering the world and making up stories for a long time.\n\nThe game is written in Haskell using the free software LambdaHack roguelike game engine. Please see the changelog file for recent improvements and the issue tracker for short-term plans. Long-term goals are high replayability and auto-balancing through procedural content generation and persistent content modification based on player behaviour.\n\nAlso, making aliens bitterly regret the idea of plotting against Earth.",
-    "tags": ["scifi", "tactical", "squad"],
+    "dev": "Mikolaj Konarski and others",
+    "desc": "Allure of the Stars is a near-future Sci-Fi roguelike and tactical squad combat game in full 16-color 7-bit ASCII.\n\nNot a single image in this game. You have to imagine everything yourself, like with a book (a grown-up book, without pictures). Once you learn to imagine things, though, you can keep exploring and mastering the world and making up stories for a long time.\n\nThe game is written in Haskell using the free software LambdaHack roguelike game engine. Please see the changelog file for recent improvements and the issue tracker for short-term plans. Long-term goals are high replayability and auto-balancing through procedural content generation and persistent content modification based on player behaviour.\n\nAlso, making aliens bitterly regret the idea of plotting against Earth.",
+    "tags": ["scifi", "tactical", "squad", "survival", "ASCII"],
     "links": {
-      "itch": "https://man-of-letters.itch.io/allureofthestars"
+      "home": "http://allureofthestars.com",
+      "discord": "https://discord.gg/87Ghnws",
+      "matrix": "https://matrix.to/#/#lambdahack:mozilla.org",
+      "github": "https://github.com/AllureOfTheStars/Allure",
+      "itch": "https://man-of-letters.itch.io/allureofthestars",
+      "twitter": "https://twitter.com/AllureRoguelike"
     },
     "versions": {
-      "0.9.5.0": {
-        "url": "https://man-of-letters.itch.io/allureofthestars",
-        "flags": ["itch"],
-        "file_id": "1412788",
-        "path": "AllureOfTheStars",
-        "exec": "Allure"
+		  "0.10.2.0": {
+		    "url": "https://github.com/AllureOfTheStars/Allure/releases/download/v0.10.2.0/Allure_0.10.2.0_windows-x86_64.zip",
+		    "path": "AllureOfTheStars",
+		    "exec": "Allure"
+      },
+		  "0.9.5.0": {
+		    "url": "https://github.com/AllureOfTheStars/Allure/releases/download/v0.9.5.0/Allure_0.9.5.0_windows-x86_64.zip",
+		    "path": "AllureOfTheStars",
+		    "exec": "Allure"
+      },
+		  "0.8.3.0": {
+		    "url": "https://github.com/AllureOfTheStars/Allure/releases/download/v0.8.3.0/Allure_0.8.3.0_windows-x86_64.zip",
+		    "path": "AllureOfTheStars",
+		    "exec": "Allure"
       }
     }
   },
